@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BookApi</string>
+
+    <string name="listFragment_label">List Fragment</string>
+</resources>

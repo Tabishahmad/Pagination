@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/listFragment"
-        android:name="com.example.bookapi.presentation.introduction.ListFragment"
+        android:name="com.example.bookapi.presentation.introduction.screen.ListFragment"
         android:label="@string/listFragment_label">
     </fragment>
 </navigation>

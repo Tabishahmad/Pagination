@@ -7,8 +7,8 @@
     android:id="@+id/fragment_movie_list"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_Movie"
+    <com.example.bookapi.presentation.introduction.screen.ImageRecyclerview
+        android:id="@+id/rv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clipToPadding="false"

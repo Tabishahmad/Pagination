@@ -1,9 +1,9 @@
 package com.example.bookapi.data.repository.remote
 
-import com.example.bookapi.data.repository.model.StickerFramesDTO
+import com.example.bookapi.data.repository.model.BookDTO
 import retrofit2.http.GET
 
 interface IDataSource {
-    @GET("file/0tn8muvffjzq3kp/textEditor.txt/file")
-    suspend fun getFrameSticker() : StickerFramesDTO
+    @GET("/books/v1/volumes?q=subject=hindi&startIndex=0&maxResults=40")
+    suspend fun downloadBookList() : BookDTO
 }

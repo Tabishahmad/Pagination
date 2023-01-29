@@ -3,7 +3,7 @@ package com.example.bookapi.data.repository.model
 data class VolumeInfo(
     val allowAnonLogging: Boolean,
     val authors: List<String>,
-    val averageRating: Float,
+    val averageRating: Int,
     val canonicalVolumeLink: String,
     val categories: List<String>,
     val contentVersion: String,

@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.bookapi.data.repository.model.toBook
 import com.example.bookapi.databinding.FragmentListBinding
 import com.example.bookapi.domain.usecase.datamodel.Book
 import com.example.bookapi.domain.usecase.datamodel.IResult
@@ -36,7 +35,7 @@ class ListFragment : BaseFragment() {
             viewModel.fetchList().collect {result->
                 when(result){
                     is IResult.Success->{
-                        result.data?.toBook()?.let { it1 -> setupScreen(it1) }
+                        result.data?.let { it1 -> setupScreen(it1) }
                     }
                     is IResult.Error->{
                         hideProgressBar()

@@ -1,0 +1,3467 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 870,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "Q8bFBQAAQBAJ",
+      "etag": "0masZ5Sr+rQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Q8bFBQAAQBAJ",
+      "volumeInfo": {
+        "title": "The Chomsky Update (RLE Linguistics A: General Linguistics)",
+        "authors": [
+          "Raphael Salkie"
+        ],
+        "publisher": "Routledge",
+        "publishedDate": "2014-01-10",
+        "description": "Noam Chomsky has been described as ‘arguably the most important intellectual alive’. His revolutionary work in linguistics has aroused intense scholarly interest, while his trenchant critique of United States foreign policy and his incisive analysis of the role of intellectuals in modern society have made him a prominent public figure. Raphael Salkie’s timely book introduces the two parts of Chomsky’s work and explores the connections between them. He provides an accessible and up-to-date introduction to Chomsky’s linguistics, laying out his basic assumptions and aims – in particular, his consistent drive to make linguistics a science – and looking at a sample of Chomsky’s recent work. He examines the implications for other fields such as philosophy and psychology, as well as the main challenges to Chomsky’s position. Raphael Salkie also sets out the key themes in Chomsky’s political writings and his libertarian socialist views. He contrasts the ‘official line’ on US foreign policy – the view that the US is a ‘well-meaning, blundering giant’ – with Chomsky’s carefully argued alternative view. By focusing on Chomsky’s conception of human nature and human freedom the author draws out the links between the two sides of Chomsky’s work, in the belief that both sides raise issues which can profitably be explored. The author also provides a carefully annotated guide to further reading. As an experienced teacher of linguistics with a commitment to political activism, Raphael Salkie is uniquely qualified to present this introduction to one of the seminal thinkers of our time. First published in 1990.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781134740833"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1134740832"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 208,
+        "printType": "BOOK",
+        "categories": [
+          "Language Arts & Disciplines"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.4.5.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Q8bFBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Q8bFBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=Q8bFBQAAQBAJ&printsec=frontcover&dq=subject%3Dhindi&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=Q8bFBQAAQBAJ&dq=subject%3Dhindi&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Chomsky_Update_RLE_Linguistics_A_Gen.html?hl=&id=Q8bFBQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/The_Chomsky_Update_RLE_Linguistics_A_Gen-sample-epub.acsm?id=Q8bFBQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/The_Chomsky_Update_RLE_Linguistics_A_Gen-sample-pdf.acsm?id=Q8bFBQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Q8bFBQAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Raphael Salkie also sets out the key themes in Chomsky’s political writings and his libertarian socialist views."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "pyhuDwAAQBAJ",
+      "etag": "N0uTZ3CwQ30",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/pyhuDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Subject HINDI Previous Year Question Bank for PGT/TGT/NET-JRF/TET/Teaching Exams",
+        "subtitle": "Mocktime Publication",
+        "authors": [
+          "Mocktime Publication"
+        ],
+        "publisher": "by Mocktime Publication",
+        "description": "Subject HINDI Previous Year Question Bank for PGT/TGT/NET-JRF/TET/Teaching Exams TGT PGT GIV KVS DSSSB NVS Education, RPSC UPPSC HPSC HSSC JPSC CGPSC BPSC MPPSC PGT , UGC CBSE NTA NET JRF , PGT Teacher Selection Recruitment Exams , Uttar pradesh Jharkhand Haryana PGT, Rajasthan bihar chattisgarh madhya Pradesh PGT",
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Study Aids"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=pyhuDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=pyhuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=pyhuDwAAQBAJ&pg=PA285&dq=subject%3Dhindi&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=pyhuDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=pyhuDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 150,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 105,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=pyhuDwAAQBAJ&rdid=book-pyhuDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 150000000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 105000000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=pyhuDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "\u003cb\u003eहिन्दी\u003c/b\u003e साहित्य के आदिकाल को &#39;&#39;-ि (a) हजारी प्रसाद द्विवेदी ने (b) डॉ. रामकुमार वर्मा ने (c) रामचन्द्र शुक्ल ने (d) राहुल सांकृत्यायन&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "s--iDwAAQBAJ",
+      "etag": "jlLiq1Y1qWA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/s--iDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Oswaal NCERT & CBSE Question Bank Class 8 Mathematics Book (For 2022 Exam)",
+        "authors": [
+          "Oswaal Editorial Board"
+        ],
+        "publisher": "Oswaal Books and Learning Private Limited",
+        "publishedDate": "2021-08-20",
+        "description": "1. Chapter-wise presentation for systematic and methodical study 2. Strictly based on the latest CBSE Curriculum and National Curriculum Framework. 3. All Questions from the Latest NCERT Textbook are included. 4. Previous Years' Question Papers from Kendriya Vidhyalaya Sangathan are included. 5. Latest Typologies of Questions developed by Oswaal Editorial Board included. 6. Mind Maps in each chapter for making learning simple. 7. 'Most likely Questions' generated by Oswaal Editorial Board with 100+ years of teaching experience.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789388462617"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9388462610"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 288,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.2.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=s--iDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=s--iDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=s--iDwAAQBAJ&pg=PA1&dq=subject%3Dhindi&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=s--iDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=s--iDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 352.82,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 191.2,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=s--iDwAAQBAJ&rdid=book-s--iDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 352820000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 191200000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Oswaal_NCERT_CBSE_Question_Bank_Class_8-sample-pdf.acsm?id=s--iDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=s--iDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Latest Typologies of Questions developed by Oswaal Editorial Board included. 6. Mind Maps in each chapter for making learning simple. 7. &#39;Most likely Questions&#39; generated by Oswaal Editorial Board with 100+ years of teaching experience."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "GYljAAAAMAAJ",
+      "etag": "FsWFHrNzV2M",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/GYljAAAAMAAJ",
+      "volumeInfo": {
+        "title": "Topi Shukla",
+        "authors": [
+          "Rāhī Māsūma Razā"
+        ],
+        "publisher": "Oxford University Press, USA",
+        "publishedDate": "2005",
+        "description": "A sensitive, humorous novel on Hindu-Muslim relations, set in post-Independence India, by an eminent Hindi writer.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015064774352"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 132,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 3,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=GYljAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=GYljAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=GYljAAAAMAAJ&q=subject%3Dhindi&dq=subject%3Dhindi&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=GYljAAAAMAAJ&dq=subject%3Dhindi&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Topi_Shukla.html?hl=&id=GYljAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=GYljAAAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The novel also explores the culture and psyche of Uttar Pradesh with its very Muslim Aligarh, its very Hindu Benares, and their exotic confluence in Lucknow.&quot;--BOOK JACKET."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "n4yZEAAAQBAJ",
+      "etag": "qPmidh3aZ7c",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/n4yZEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Oswaal CBSE Hindi A, Hindi B, English, Science, Social Science & Mathematics Class 9 Sample Question Papers (Set of 6 Books) (For 2023 Exam)",
+        "authors": [
+          "Oswaal Editorial Board"
+        ],
+        "publisher": "Oswaal Books and Learning Private Limited",
+        "publishedDate": "2022-11-02",
+        "description": "CBSE Sample Paper Class 9 Hindi A, Hindi B, English, Science, Social Science & Mathematics for exams 2022-2023 is one of the best CBSE Reference Books for Class 9 exams 2022-23.It includes Latest Solved Sample Papers with Marking scheme 2022- 2023 which were released on 16th September 2022 for advanced learning. On top of that, 5 Sample Question Papers with high chances of appearing in the CBSE class 9 exam 2023 are included in this best CBSE Reference Book for Class 9 exams 2022-23. These 5 sample question papers are available for free on Oswaal 360 website for students. CBSE Sample Paper Class 9 Hindi A, Hindi B, English, Science, Social Science & Mathematics for exams 2022-2023 contains 10 Sample Papers which further comprises of 5 Solved & 5 Self-Assessment Papers. This Best CBSE Reference Book for Class 9 exams 2022-23 is strictly designed as per the latest CBSE Sample Paper released by CBSE to keep students updated with CBSE guidelines. CBSE Sample Paper Class 9 Hindi A, Hindi B, English, Science, Social Science & Mathematics for exams 2022-2023 analysis to provide enhanced exam clarity to the students. It includes On-Tips Notes & Revision Notes for students to have robust preparation. The best CBSE reference Books for Class 9 exams 2022-23 contains some of the best advanced learning tools such as Mind Maps & Mnemonics with 1000+ concepts to make learning easier and advanced for students. To top it all, 500+ Questions are also included for practice in the CBSE Sample Paper Class 9. The right amount of practice with CBSE Sample Paper Class 9 Hindi A, Hindi B, English, Science, Social Science & Mathematics for exams 2022-2023 will lead to desired results for class 9 students. The Best CBSE Reference Books for Class 9 exams 2022-23 when practised with focus and precision will produce desired results. When the students practice with this best CBSE Sample Paper Class 9 Hindi A, Hindi B, English, Science, Social Science & Mathematics for exams 2022-2023 for a good amount of time then they will ahead of the competition by scoring highest marks.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789356342583"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "935634258X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 776,
+        "printType": "BOOK",
+        "categories": [
+          "Study Aids"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=n4yZEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=n4yZEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=n4yZEAAAQBAJ&printsec=frontcover&dq=subject%3Dhindi&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=n4yZEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=n4yZEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1762.92,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 1762.92,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=n4yZEAAAQBAJ&rdid=book-n4yZEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1762920000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 1762920000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Oswaal_CBSE_Hindi_A_Hindi_B_English_Scie-sample-pdf.acsm?id=n4yZEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=n4yZEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "These 5 sample question papers are available for free on Oswaal 360 website for students."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "5yyXDwAAQBAJ",
+      "etag": "X6fpHT6qLT0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/5yyXDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Oswaal NCERT & CBSE Question Bank Class 7 Science Book (For 2022 Exam)",
+        "authors": [
+          "Oswaal Editorial Board This latest offering Oswaal Books is developed by “Oswaal Panel of Experts”. Oswaal Books strongly believes in Making Learning Simple. To ensure student friendly yet highly exam-oriented content, we take due care in developing our Panel of Experts. Accomplished teachers with 100+ years of combined experience, Subject Matter Experts with unmatchable subject knowledge, dynamic educationists, professionals with keen interest in education and topper students from the length and breadth of the country, together form the coveted Oswaal Panel of Experts. It is with their expertise, guidance and keen eye for details that the content in each offering from Oswaal Books meets highest quality standards. No wonder, Oswaal Books holds an enviable place in every student’s heart!"
+        ],
+        "publisher": "Oswaal Books and Learning Private Limited",
+        "publishedDate": "2021-08-19",
+        "description": "1. Chapter-wise presentation for systematic and methodical study 2. Strictly based on the latest CBSE Curriculum and National Curriculum Framework. 3. All Questions from the Latest NCERT Textbook are included. 4. Previous Years' Question Papers from Kendriya Vidhyalaya Sangathan are included. 5. Latest Typologies of Questions developed by Oswaal Editorial Board included. 6. Mind Maps in each chapter for making learning simple. 7. 'Most likely Questions' generated by Oswaal Editorial Board with 100+ years of teaching experience",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789388462525"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9388462521"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 240,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "averageRating": 1,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.3.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=5yyXDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=5yyXDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=5yyXDwAAQBAJ&pg=PA1&dq=subject%3Dhindi&hl=&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=5yyXDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=5yyXDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 352.82,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 167.3,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=5yyXDwAAQBAJ&rdid=book-5yyXDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 352820000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 167300000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Oswaal_NCERT_CBSE_Question_Bank_Class_7-sample-pdf.acsm?id=5yyXDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=5yyXDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "1. Chapter-wise presentation for systematic and methodical study 2. Strictly based on the latest CBSE Curriculum and National Curriculum Framework. 3. All Questions from the Latest NCERT Textbook are included. 4."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "bNBYEAAAQBAJ",
+      "etag": "vJ5rBrqeRKQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/bNBYEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Arihant CBSE Hindi Kendrik Term 2 Class 11 for 2022 Exam (Cover Theory and MCQs)",
+        "authors": [
+          "Urmila Singhal"
+        ],
+        "publisher": "Arihant Publications India limited",
+        "publishedDate": "2021-11-20",
+        "description": "CBSE की नवीनतम परीक्षा योजना के अनुसार शैक्षणिक सत्र 2021 - 22 के कक्षा 9 से 12वी तक के लिए दो terms; Term I व Term II में विभाजित किया गया है तथा दोनों Terms के लिए अलग अलग परीक्षाएँ आयोजित की जाएँगी। यह पुस्तक विशेष रूप से कक्षा 11 हिंदी केन्द्रिक की term II परीक्षा के लिए तैयार की गयी है। इस पुस्तक में Term II के सभी खंडों / अध्यायों को नवीनतम पाठ्यक्रम के अनुसार संपूर्ण रूप से कवर किया गया है। पुस्तक की मुख्या विशेषताएँ 1. सभी खंडो के प्रारम्भ में महत्त्वपूर्ण पाठ्य सामग्री 2. पाठ्यपुस्तक के अध्यायों का सारांश 3. सभी अध्यायों में पाठ्यक्रम के अनुसार प्रश्नों का कवरेज 4. NCERT के प्रश्न व बोर्ड परीक्षा के प्रश्नो का समावेश 5. सभी प्रश्नों के व्याख्यात्मक उत्तर 6. Term II के नवीनतम पाठ्यक्रम पर आधारित 3 प्रैक्टिस पेपर्स विषय – सूची कार्यालयी हिंदी और रचनात्मक लेखन : अभिव्यक्ति और माध्यम, आरोह भाग - 1 : काव्य खंड, आरोह भाग - 1 : गद्य खंड, वितान भाग - 1: अनुरूपक पाठ्यपुस्तक, 3 प्रैक्टिस सेट्स।",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789325796812"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9325796813"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 133,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=bNBYEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=bNBYEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=bNBYEAAAQBAJ&pg=PP10&dq=subject%3Dhindi&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=bNBYEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=bNBYEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 135,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 135,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=bNBYEAAAQBAJ&rdid=book-bNBYEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 135000000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 135000000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Arihant_CBSE_Hindi_Kendrik_Term_2_Class-sample-pdf.acsm?id=bNBYEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=bNBYEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... in Class XI XII \u003cb\u003esubject\u003c/b\u003e to the moderation or other measures to ensure validity and reliability of the assessment . ... \u003cb\u003eहिंदी\u003c/b\u003e और रचनात्मक लेखन : अभिव्यक्ति और माध्यम अध्याय F839.pdf: Page 9."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "871WEAAAQBAJ",
+      "etag": "zcA1Cq8BUAs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/871WEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Educart Term 2 Mathematics CBSE Class 10 Objective & Subjective Question Bank 2022 (Exclusively on New Competency Based Education Pattern)",
+        "authors": [
+          "EduCart"
+        ],
+        "publisher": "Educart",
+        "publishedDate": "2021-12-28",
+        "description": "Educart Class 10 Mathematics Question Bank combines remarkable features for Term 2 Board exam preparation. Exclusively developed based on Learning Outcomes and Competency-based Education Pattern, this one book includes Chapter-wise theory for learning; Solved Questions (from NCERT and DIKSHA); and Detailed Explanations for concept clearance and Unsolved Self Practice Questions for practice. Topper’s Answers are also given to depict how to answer Questions according to the CBSE Marking Scheme Solutions.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789355611260"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9355611269"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 224,
+        "printType": "BOOK",
+        "categories": [
+          "Study Aids"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=871WEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=871WEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=871WEAAAQBAJ&pg=PA1&dq=subject%3Dhindi&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=871WEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=871WEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 293.82,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 205.67,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=871WEAAAQBAJ&rdid=book-871WEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 293820000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 205670000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Educart_Term_2_Mathematics_CBSE_Class_10-sample-pdf.acsm?id=871WEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=871WEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Exclusively developed based on Learning Outcomes and Competency-based Education Pattern, this one book includes Chapter-wise theory for learning; Solved Questions (from NCERT and DIKSHA); and Detailed Explanations for concept clearance and ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "81o9EAAAQBAJ",
+      "etag": "qm1soRXBIhY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/81o9EAAAQBAJ",
+      "volumeInfo": {
+        "title": "UGC NTA NET Hindi Previous Year Papers",
+        "authors": [
+          "Mocktime Publication"
+        ],
+        "publisher": "by Mocktime Publication",
+        "publishedDate": "101-01-01",
+        "description": "[41 Papers] NTA UGC NET Subject Hindi Book",
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Study Aids"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=81o9EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=81o9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "hi",
+        "previewLink": "http://books.google.co.in/books?id=81o9EAAAQBAJ&printsec=frontcover&dq=subject%3Dhindi&hl=&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=81o9EAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=81o9EAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 151,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 105.7,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=81o9EAAAQBAJ&rdid=book-81o9EAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 151000000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 105700000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/UGC_NTA_NET_Hindi_Previous_Year_Papers-sample-epub.acsm?id=81o9EAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/UGC_NTA_NET_Hindi_Previous_Year_Papers-sample-pdf.acsm?id=81o9EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=81o9EAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "[41 Papers] NTA UGC NET Subject Hindi Book"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "MoJjEAAAQBAJ",
+      "etag": "jF2/DY5xbac",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/MoJjEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Workbook HINDI Vasant CBSE CLASS 6th",
+        "publisher": "Arihant Publications India limited",
+        "publishedDate": "2019-08-27",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789311121918"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9311121916"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Study Aids"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=MoJjEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=MoJjEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "hi",
+        "previewLink": "http://books.google.co.in/books?id=MoJjEAAAQBAJ&printsec=frontcover&dq=subject%3Dhindi&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=MoJjEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=MoJjEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 141.01,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 141.01,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=MoJjEAAAQBAJ&rdid=book-MoJjEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 141010000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 141010000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Workbook_HINDI_Vasant_CBSE_CLASS_6th-sample-pdf.acsm?id=MoJjEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=MoJjEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "w3lxEAAAQBAJ",
+      "etag": "tyF0z18IoFk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/w3lxEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Oswaal CBSE Question Bank Class 9 Hindi A, English, Math, Science & Social Science (Set of 5 Books) (For 2022-23 Exam)",
+        "authors": [
+          "Oswaal Editorial Board"
+        ],
+        "publisher": "Oswaal Books and Learning Private Limited",
+        "publishedDate": "2022-05-26",
+        "description": "CBSE Books Class 9: Chapter Navigation Tools CBSE Syllabus :CBSE Question Banks Class 9 are based on latest & full syllabus Revision Notes: CBSE Books Class 9: Chapter wise & Topic wise Exam Questions: CBSE Question Bank Class 9: Includes Previous Years KVS exam questions New Typology of Questions: CBSE Questions Banks Class 9 have MCQs, VSA,SA & LA including case based questions NCERT Corner: CBSE Books Class 9 have Fully Solved Textbook Questions (Exemplar Questions in Physics, Chemistry, Biology) CBSE Question Banks Class 9 have Exam Oriented Prep Tools: Commonly Made Errors & Answering Tips to avoid errors and score improvement Mind Maps for quick learning Concept Videos for blended learning Academically Important (AI) look out for highly expected questions for the upcoming exams Mnemonics for better memorisation Self Assessment Papers Unit wise test for self preparation",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789355958068"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9355958064"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 1353,
+        "printType": "BOOK",
+        "categories": [
+          "Study Aids"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=w3lxEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=w3lxEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=w3lxEAAAQBAJ&printsec=frontcover&dq=subject%3Dhindi&hl=&cd=11&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=w3lxEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=w3lxEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2708.1,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 2708.1,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=w3lxEAAAQBAJ&rdid=book-w3lxEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2708100000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2708100000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Oswaal_CBSE_Question_Bank_Class_9_Hindi-sample-pdf.acsm?id=w3lxEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=w3lxEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "CBSE Books Class 9: Chapter Navigation Tools CBSE Syllabus :CBSE Question Banks Class 9 are based on latest &amp; full syllabus Revision Notes: CBSE Books Class 9: Chapter wise &amp; Topic wise Exam Questions: CBSE Question Bank Class 9: Includes ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "UpaWEAAAQBAJ",
+      "etag": "Efuy1NmrUGU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/UpaWEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Oswaal CBSE Hindi A, English, Science, Social Science & Math Standard Class 10 Sample Question Paper (Set of 5 Books) for 2023 Board Exam (based on CBSE Sample Paper released on 16th September)",
+        "authors": [
+          "Oswaal Editorial Board"
+        ],
+        "publisher": "Oswaal Books and Learning Private Limited",
+        "publishedDate": "2022-10-22",
+        "description": "This product covers the following: • 10 Sample Papers-5 Solved & 5 Self-Assessment Papers strictly designed as per the latest CBSE Sample Paper released on 16th September’2022 • 2023 Board Sample Paper analysis • On-Tips Notes & Revision Notes for Quick Revision • Mind Maps & Mnemonics with 1000+concepts for better learning • 200+MCQs & Objective Type Questions for practice",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789356341265"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9356341265"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 1035,
+        "printType": "BOOK",
+        "categories": [
+          "Study Aids"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=UpaWEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=UpaWEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=UpaWEAAAQBAJ&printsec=frontcover&dq=subject%3Dhindi&hl=&cd=12&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=UpaWEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=UpaWEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1669.7,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 1669.7,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=UpaWEAAAQBAJ&rdid=book-UpaWEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1669700000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 1669700000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Oswaal_CBSE_Hindi_A_English_Science_Soci-sample-pdf.acsm?id=UpaWEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=UpaWEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This product covers the following: • 10 Sample Papers-5 Solved &amp; 5 Self-Assessment Papers strictly designed as per the latest CBSE Sample Paper released on 16th September’2022 • 2023 Board Sample Paper analysis • On-Tips Notes &amp; ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "RkkCEAAAQBAJ",
+      "etag": "mEfh3/rCPz0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/RkkCEAAAQBAJ",
+      "volumeInfo": {
+        "title": "WORKBOOK MATH CBSE- CLASS 5TH",
+        "authors": [
+          "Experts Compilation"
+        ],
+        "publisher": "Arihant Publications India limited",
+        "publishedDate": "2017-11-02",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789311121949"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9311121940"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 90,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=RkkCEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=RkkCEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=RkkCEAAAQBAJ&pg=PP1&dq=subject%3Dhindi&hl=&cd=13&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=RkkCEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=RkkCEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 68.57,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 68.57,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=RkkCEAAAQBAJ&rdid=book-RkkCEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 68570000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 68570000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/WORKBOOK_MATH_CBSE_CLASS_5TH-sample-pdf.acsm?id=RkkCEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=RkkCEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book is strictly based on NCERT and complements it by providing practice to help reinforce the material given in each chapter of NCERT."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "wfByP2TG8MoC",
+      "etag": "U8fW2LF5Nic",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/wfByP2TG8MoC",
+      "volumeInfo": {
+        "title": "Hindi Cinema",
+        "subtitle": "Repeating the Subject",
+        "authors": [
+          "Nandini Bhattacharya"
+        ],
+        "publisher": "Routledge",
+        "publishedDate": "2013-05-07",
+        "description": "Hindi Cinema is full of instances of repetition of themes, narratives, plots and characters. By looking at 60 years of Hindi cinema, this book focuses on the phenomenon as a crucial thematic and formal code that is problematic when representing the national and cinematic subject. It reflects on the cinema as motivated by an ongoing crisis of self-formation in modern India. The book looks at how cinema presents liminal and counter-modern identities emerging within repeated modern attempts to re-enact traumatic national events so as to redeem the past and restore a normative structure to happenings. Establishing structure and event as paradigmatic poles of a historical and anthropological spectrum for the individual in society, the book goes on to discuss cinematic portrayals of violence, gender embodiment, religion, economic transformations and new globalised Indianness as events and sites of liminality disrupting structural aspirations. After revealing the impossibility of accurate representation of incommensurable and liminal subjects within the historiography of the nation-state, the book highlights how Hindi cinema as an ongoing engagement with the nation-state as a site of eventfulness draws attention to the problematic nature of the thematic of nation. It is a useful study for academics of Film Studies and South Asian Culture.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781136189876"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1136189874"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 232,
+        "printType": "BOOK",
+        "categories": [
+          "Social Science"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.4.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=wfByP2TG8MoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=wfByP2TG8MoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=wfByP2TG8MoC&printsec=frontcover&dq=subject%3Dhindi&hl=&cd=14&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=wfByP2TG8MoC&dq=subject%3Dhindi&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Hindi_Cinema.html?hl=&id=wfByP2TG8MoC"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Hindi_Cinema-sample-pdf.acsm?id=wfByP2TG8MoC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=wfByP2TG8MoC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "By looking at 60 years of Hindi cinema, this book focuses on the phenomenon as a crucial thematic and formal code that is problematic when representing the national and cinematic subject."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "e6akyaHLmucC",
+      "etag": "t+MsYKwirqo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/e6akyaHLmucC",
+      "volumeInfo": {
+        "title": "The Tortoise and the Hare",
+        "authors": [
+          "Aesop"
+        ],
+        "publisher": "Capstone",
+        "publishedDate": "2011",
+        "description": "A proud hare brags that he is the fastest animal in the world, and so when a tortoise challenges him to a race, the hare is confident that he will win.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781404865037"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1404865039"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 18,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 28,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=e6akyaHLmucC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=e6akyaHLmucC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=e6akyaHLmucC&printsec=frontcover&dq=subject%3Dhindi&hl=&cd=15&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=e6akyaHLmucC&dq=subject%3Dhindi&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Tortoise_and_the_Hare.html?hl=&id=e6akyaHLmucC"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/The_Tortoise_and_the_Hare-sample-pdf.acsm?id=e6akyaHLmucC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=e6akyaHLmucC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A proud hare brags that he is the fastest animal in the world, and so when a tortoise challenges him to a race, the hare is confident that he will win."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "sO5WEAAAQBAJ",
+      "etag": "9x5hlFfKpIo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/sO5WEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Oswal - Gurukul Science Chapterwise Objective + Subjective for CBSE Class 10 Term 2 Exam",
+        "authors": [
+          "Oswal - Gurukul"
+        ],
+        "publisher": "Oswal Publishers",
+        "publishedDate": "2021-12-16",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789392563072"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9392563078"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 264,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=sO5WEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=sO5WEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=sO5WEAAAQBAJ&pg=PP1&dq=subject%3Dhindi&hl=&cd=16&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=sO5WEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=sO5WEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 282.02,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 197.41,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=sO5WEAAAQBAJ&rdid=book-sO5WEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 282020000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 197410000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Oswal_Gurukul_Science_Chapterwise_Object-sample-pdf.acsm?id=sO5WEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=sO5WEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "OdPZAwAAQBAJ",
+      "etag": "LmsfqnCCALg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/OdPZAwAAQBAJ",
+      "volumeInfo": {
+        "title": "Elementary Tagalog",
+        "subtitle": "Tara, Mag-Tagalog Tayo! Come On, Let's Speak Tagalog! (Online Audio Download Included)",
+        "authors": [
+          "Jiedson R. Domigpe",
+          "Nenita Pambid Domingo"
+        ],
+        "publisher": "Tuttle Publishing",
+        "publishedDate": "2014-06-01",
+        "description": "Elementary Tagalog is the leading beginner Tagalog textbook and Tagalog language learning package. Elementary Tagalog's comprehensive approach will help students master Tagalog, the language of the Philippines--also known as Filipino or Pilipino. From learning to read Tagalog words and pronounce sounds to using correct Tagalog grammar and building vocabulary, learners will be surprised at how quickly their skills develop. The expert guidance in Elementary Tagalog is ideal both for true beginners and heritage learners who grew up in Filipino-speaking communities or families. The accompanying 2-hour long downloadable audio improves listening comprehension and ensures correct pronunciation. Covering a range of topics, the Tagalog language lessons center on themes of the family, the home, and the community--including food, travel, health, leisure time, festivals, and popular culture. There are plenty of exercises, activities, and practice drills to help learners acquire and master Tagalog language fundamentals, while culture notes explore the diversity, heritage, and history of the Philippines. Elementary Tagalog is composed of twenty-four lessons divided into eight units. Each lesson contains: Cultural Notes--at the beginning of each unit these offer explanations of social, economic, and historical aspects of Filipino society A Vocabulary List--located within each lesson, it ties into the theme of the unit Reading and Reading Comprehension--given mostly in the form of Tagalog language dialogues, these are designed to expose the students to real-life conversations as might be had by native Filipino speakers. Three Active Learning Activities-- these follow the dialogue comprehension in each lesson, and ask students to employ new Tagalog vocabulary. The Grammar Section--divided into four parts: definitions of terms, examining form, grammar presentation, and grammar notes. Practice Exercises and Activities--target speaking Tagalog, reading Tagalog, writing Tagalog and Tagalog listening skills. Accompanying Downloadable Audio--listening activities to reinforce Tagalog learning is also included with the book Available separately is the companion Elementary Tagalog Workbook This helpful workbook will assist you in practicing and polishing your Filipino language skills, offering a range of exercises and practice opportunities to enable you to achieve proficiency in everyday, conversational Tagalog.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781462914562"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "146291456X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 420,
+        "printType": "BOOK",
+        "categories": [
+          "Foreign Language Study"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.8.9.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=OdPZAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=OdPZAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=OdPZAwAAQBAJ&pg=PA33&dq=subject%3Dhindi&hl=&cd=17&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=OdPZAwAAQBAJ&dq=subject%3Dhindi&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Elementary_Tagalog.html?hl=&id=OdPZAwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Elementary_Tagalog-sample-epub.acsm?id=OdPZAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Elementary_Tagalog-sample-pdf.acsm?id=OdPZAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=OdPZAwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "It is formed by adding \u003cb\u003ehindi\u003c/b\u003e before an affirmative statement. Notice, however, that when the \u003cb\u003esubject\u003c/b\u003e is a pronoun, the word order changes. This is because \u003cb\u003ehindi\u003c/b\u003e is a pronoun and enclitic magnet, meaning that whenever there are pronouns&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "nO7aDwAAQBAJ",
+      "etag": "RuHwTPEBrYY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nO7aDwAAQBAJ",
+      "volumeInfo": {
+        "title": "RBI Grade 'B' Officer's Phase I (Prelims) | 1800+ Solved Questions (8 Mock Tests + 4 Sectional Tests)",
+        "authors": [
+          "EduGorilla Prep Experts"
+        ],
+        "publisher": "EduGorilla Community Pvt. Ltd.",
+        "publishedDate": "2022-08-03",
+        "description": "• Best Selling Book in English Edition for RBI Grade 'B' Officer's Phase I (Prelims) with objective-type questions as per the latest syllabus given by the RBI. • Compare your performance with other students using Smart Answer Sheets in EduGorilla’s RBI Grade 'B' Officer's Phase I (Prelims) Practice Kit. • RBI Grade 'B' Officer's Phase I (Prelims) Preparation Kit comes with 12 Tests (8 Mock Tests + 4 Sectional Tests) with the best quality content. • Increase your chances of selection by 14X. • RBI Grade 'B' Officer's Phase I (Prelims) Prep Kit comes with well-structured and 100% detailed solutions for all the questions. • Clear exam with good grades using thoroughly Researched Content by experts.",
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 649,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.3.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=nO7aDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=nO7aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=nO7aDwAAQBAJ&pg=PA192&dq=subject%3Dhindi&hl=&cd=18&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=nO7aDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=nO7aDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 377.6,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 264.32,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=nO7aDwAAQBAJ&rdid=book-nO7aDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 377600000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 264320000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/RBI_Grade_B_Officer_s_Phase_I_Prelims_18-sample-pdf.acsm?id=nO7aDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=nO7aDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "T English, Political Science Person Class \u003cb\u003eSubject\u003c/b\u003e P Class 11 Computer Q Class 11 Science, English S Class 10 O Class 10 \u003cb\u003eHindi\u003c/b\u003e M 11 Class 12 Class 12 Class 12 R English After filling the gaps, we got the final arrangement, 4) The one who&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "u3lxEAAAQBAJ",
+      "etag": "SfzJ9u2q9Pg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/u3lxEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Oswaal CBSE Question Bank Class 9 Hindi B, English, Math, Science & Social Science (Set of 5 Books) (For 2022-23 Exam)",
+        "authors": [
+          "Oswaal Editorial Board"
+        ],
+        "publisher": "Oswaal Books and Learning Private Limited",
+        "publishedDate": "2022-05-26",
+        "description": "CBSE Books Class 9: Chapter Navigation Tools CBSE Syllabus :CBSE Question Banks Class 9 are based on latest & full syllabus Revision Notes: CBSE Books Class 9: Chapter wise & Topic wise Exam Questions: CBSE Question Bank Class 9: Includes Previous Years KVS exam questions New Typology of Questions: CBSE Questions Banks Class 9 have MCQs, VSA,SA & LA including case based questions NCERT Corner: CBSE Books Class 9 have Fully Solved Textbook Questions (Exemplar Questions in Physics, Chemistry, Biology) CBSE Question Banks Class 9 have Exam Oriented Prep Tools: Commonly Made Errors & Answering Tips to avoid errors and score improvement Mind Maps for quick learning Concept Videos for blended learning Academically Important (AI) look out for highly expected questions for the upcoming exams Mnemonics for better memorisation Self Assessment Papers Unit wise test for self preparation",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789355958075"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9355958072"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 1345,
+        "printType": "BOOK",
+        "categories": [
+          "Study Aids"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=u3lxEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=u3lxEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=u3lxEAAAQBAJ&printsec=frontcover&dq=subject%3Dhindi&hl=&cd=19&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=u3lxEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=u3lxEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2708.1,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 2708.1,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=u3lxEAAAQBAJ&rdid=book-u3lxEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2708100000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2708100000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Oswaal_CBSE_Question_Bank_Class_9_Hindi-sample-pdf.acsm?id=u3lxEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=u3lxEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "CBSE Books Class 9: Chapter Navigation Tools CBSE Syllabus :CBSE Question Banks Class 9 are based on latest &amp; full syllabus Revision Notes: CBSE Books Class 9: Chapter wise &amp; Topic wise Exam Questions: CBSE Question Bank Class 9: Includes ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "a56fEAAAQBAJ",
+      "etag": "bsg/E9FM/Ok",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/a56fEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Educart CBSE Class 12 HINDI CORE Sample Paper 2023 (with Exclusive Topper Answers and Marks breakdown for 2022-23 Board Exams)",
+        "authors": [
+          "Educart"
+        ],
+        "publisher": "Educart",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789355617613"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9355617615"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 13,
+        "printType": "BOOK",
+        "categories": [
+          "Antiques & Collectibles"
+        ],
+        "maturityRating": "MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=a56fEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=a56fEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "hi",
+        "previewLink": "http://books.google.co.in/books?id=a56fEAAAQBAJ&printsec=frontcover&dq=subject%3Dhindi&hl=&cd=20&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=a56fEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=a56fEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 0,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 0,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=a56fEAAAQBAJ&rdid=book-a56fEAAAQBAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=a56fEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "NA"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "9FjwsgEACAAJ",
+      "etag": "SIYBUg/4fUA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/9FjwsgEACAAJ",
+      "volumeInfo": {
+        "title": "Hindi Cinema",
+        "subtitle": "Repeating the Subject",
+        "authors": [
+          "Nandini Bhattacharya"
+        ],
+        "publisher": "Intersections: Colonial and Postcolonial Histories",
+        "publishedDate": "2015-07-31",
+        "description": "Hindi Cinema is full of instances of repetition of themes, narratives, plots and characters. By looking at 60 years of Hindi cinema, this book focuses on the phenomenon as a crucial thematic and formal code that is problematic when representing the national and cinematic subject. It reflects on the cinema as motivated by an ongoing crisis of self-formation in modern India. The book looks at how cinema presents liminal and counter-modern identities emerging within repeated modern attempts to re-enact traumatic national events so as to redeem the past and restore a normative structure to happenings. Establishing structure and event as paradigmatic poles of a historical and anthropological spectrum for the individual in society, the book goes on to discuss cinematic portrayals of violence, gender embodiment, religion, economic transformations and new globalised Indianness as events and sites of liminality disrupting structural aspirations. After revealing the impossibility of accurate representation of incommensurable and liminal subjects within the historiography of the nation-state, the book highlights how Hindi cinema as an ongoing engagement with the nation-state as a site of eventfulness draws attention to the problematic nature of the thematic of nation. It is a useful study for academics of Film Studies and South Asian Culture.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1138119350"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781138119352"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 232,
+        "printType": "BOOK",
+        "categories": [
+          "Motion pictures, Hindi"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=9FjwsgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=9FjwsgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=9FjwsgEACAAJ&dq=subject%3Dhindi&hl=&cd=21&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=9FjwsgEACAAJ&dq=subject%3Dhindi&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Hindi_Cinema.html?hl=&id=9FjwsgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=9FjwsgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "By looking at 60 years of Hindi cinema, this book focuses on the phenomenon as a crucial thematic and formal code that is problematic when representing the national and cinematic subject."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ZP6PDwAAQBAJ",
+      "etag": "ngMXJbvBQNU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ZP6PDwAAQBAJ",
+      "volumeInfo": {
+        "title": "New Pattern Data Analysis & Interpretation for SBI/ IBPS Bank PO/ SO/ Clerk/ RRB/ SSC Exams 2nd Edition",
+        "authors": [
+          "Disha Experts"
+        ],
+        "publisher": "Disha Publications",
+        "publishedDate": "2019-04-01",
+        "description": "The thoroughly Revised & Updated 2nd Edition of the Book New Pattern Data Analysis & Interpretation for SBI/ IBPS Bank PO/ Clerk/ RRB/ RBI Exams captures the changing pattern of the various Banking Exams. The pattern has changed with the recent addition of Data Analysis & Interpretation Questions, which checks not only the student's ability to interpret data but also the ability to solve real-life problems based on Data. The recent papers have seen a change in the pattern of such questions where Data is mixed with a real-life scenario and concepts based on percentage, profit & loss, interest, numbers, ratio & proportion, mixture & Allegation etc. The book provides sufficient number of practice questions on such type of questions along with strategies to solve them. Further the book provides complete theory with fully solved exercises. The past questions of the various exams are also included in the book.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789388919081"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9388919084"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 212,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ZP6PDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ZP6PDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=ZP6PDwAAQBAJ&pg=PA135&dq=subject%3Dhindi&hl=&cd=22&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ZP6PDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ZP6PDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 194.7,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 136.29,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=ZP6PDwAAQBAJ&rdid=book-ZP6PDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 194700000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 136290000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/New_Pattern_Data_Analysis_Interpretation-sample-pdf.acsm?id=ZP6PDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ZP6PDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... below: The students of a school have an option to study only Hindi, only Sanskrit or a composite \u003cb\u003esubject Hindi\u003c/b\u003e and Sanskrit. ... The number of boys who opted for only Sanskrit and that for composite subject are in the ratio of 2 : 1&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "8ISJDwAAQBAJ",
+      "etag": "uNWAfhQcFH8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8ISJDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Target High – Hindi",
+        "authors": [
+          "Muthuvenkatachalam Srinivasan",
+          "Ambili M Venugopal"
+        ],
+        "publisher": "CBS Publishers & Distributors Private Limited",
+        "description": "400+ pages of Synopses of All Nursing & Medical Subjects • 250+ Most Recent Examination Qs 2018 • 1500+ MCQs with Explanations • 6500+ Practice Qs of High Standard • 33 Recent Exams (2019-13) Solved Papers • 60+ Appendices Containing Figures, Tables & Flowcharts • 200 Colored Image-based Qs Covering ECGs & Instruments • Current Affairs 2019 (up to Jan), General English by Subject Specialist, General Aptitude •",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789388178631"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9388178637"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 6,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8ISJDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8ISJDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=8ISJDwAAQBAJ&printsec=frontcover&dq=subject%3Dhindi&hl=&cd=23&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=8ISJDwAAQBAJ&dq=subject%3Dhindi&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Target_High_Hindi.html?hl=&id=8ISJDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Target_High_Hindi-sample-pdf.acsm?id=8ISJDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8ISJDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "400+ pages of Synopses of All Nursing &amp; Medical Subjects • 250+ Most Recent Examination Qs 2018 • 1500+ MCQs with Explanations • 6500+ Practice Qs of High Standard • 33 Recent Exams (2019-13) Solved Papers • 60+ Appendices ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "IxntDwAAQBAJ",
+      "etag": "nIX1PvcLKww",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/IxntDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Gunjan Hindi Pathmala – 5",
+        "authors": [
+          "MANJU  MEHRA, SANYUKTA LUDHRA"
+        ],
+        "publisher": "Vikas Publishing House",
+        "description": "1. Hindi Textbook from Praveshika to classes 1 to 8 as per CBSE curriculum 2. Workbook is available separately from 1 to 8 3. Questions on HOTS, Multiple Intelligence and Value Based Assessment are available in workbooks 3. Language Development is done through Grammar exercises. 4. Tips on 'How to use Hindi Dictionary' is given at the end of the book. 5. Sample Question papers are given with Marking Scheme as per CBSE 6. Activities are given for Subject Enrichment and ASL (Assessment of Speaking & Listening Skills) 7. 'Reading for Fun' is given to develop interest in the subject 8. Mobile App for classes 6 to 8 9. Teacher's manual and Digital content is available",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789352714056"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9352714059"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Foreign Language Study"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=IxntDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=IxntDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "hi",
+        "previewLink": "http://books.google.co.in/books?id=IxntDwAAQBAJ&printsec=frontcover&dq=subject%3Dhindi&hl=&cd=24&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=IxntDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=IxntDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 418.9,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 293.23,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=IxntDwAAQBAJ&rdid=book-IxntDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 418900000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 293230000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Gunjan_Hindi_Pathmala_5-sample-pdf.acsm?id=IxntDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=IxntDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Questions on HOTS, Multiple Intelligence and Value Based Assessment are available in workbooks 3. Language Development is done through Grammar exercises. 4. Tips on &#39;How to use Hindi Dictionary&#39; is given at the end of the book. 5."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "HXFKEAAAQBAJ",
+      "etag": "LVh4UHczBgs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/HXFKEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Solved Papers RRB NTPC",
+        "authors": [
+          "YCT Expert Team"
+        ],
+        "publisher": "YOUTH COMPETITION TIMES",
+        "description": "2022 RRB NTPC Previous Solved Papers Volume-1",
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 416,
+        "printType": "BOOK",
+        "categories": [
+          "Antiques & Collectibles"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=HXFKEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=HXFKEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=HXFKEAAAQBAJ&pg=PA67&dq=subject%3Dhindi&hl=&cd=25&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=HXFKEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=HXFKEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 177,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 123.9,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=HXFKEAAAQBAJ&rdid=book-HXFKEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 177000000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 123900000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Solved_Papers_RRB_NTPC-sample-pdf.acsm?id=HXFKEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=HXFKEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Study the data and answer the question : Ans. (d) : The % increase in performance of student in Hindi. \u003cb\u003eSubject Hindi\u003c/b\u003e English Math Science Social Science 5 Mid term 80 70 65 77 79 ×100 = Required percentage % = 80 examination marks&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "PiMtDAAAQBAJ",
+      "etag": "qBegY58Qm9E",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/PiMtDAAAQBAJ",
+      "volumeInfo": {
+        "title": "S.Chand’s Rapid Revision in Computer Science for Class 12",
+        "authors": [
+          "Dheeraj Mehrotra & Yogita Mehrotra"
+        ],
+        "publisher": "S. Chand Publishing",
+        "description": "S.Chand’s Rapid Revision in Computer Science for Class 12",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788121920063"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "812192006X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 1,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=PiMtDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=PiMtDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=PiMtDAAAQBAJ&pg=PA372&dq=subject%3Dhindi&hl=&cd=26&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=PiMtDAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=PiMtDAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 295,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 206.5,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=PiMtDAAAQBAJ&rdid=book-PiMtDAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 295000000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 206500000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/S_Chand_s_Rapid_Revision_in_Computer_Sci-sample-pdf.acsm?id=PiMtDAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=PiMtDAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Name Age \u003cb\u003eSubject\u003c/b\u003e Sex 1 Ankit 45 Comp.Sc. M 2 Sumit 32 History M 3 Amit 22 Geog M 4 Suchitra 23 Maths F 5 Ankita 22 \u003cb\u003eHindi\u003c/b\u003e F 6 Shruti 21 Comp.Sc. F 7 Raksha 22 \u003cb\u003eHindi\u003c/b\u003e F 8 Priya 33 Maths F (b) To show all information about the members of&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "HF2_DwAAQBAJ",
+      "etag": "M+RULSNOoOE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/HF2_DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Educart CBSE Maths Standard Sample Question Papers For Class 10 (For March 2020 Exam)",
+        "subtitle": "Strictly based on 20th September 2019 CBSE Sample Paper",
+        "authors": [
+          "Education Experts"
+        ],
+        "publisher": "Educart",
+        "publishedDate": "2019-10-20",
+        "description": "NEW VERSION: Available now based on the 20th September 2019 CBSE Sample Paper. This Maths (Standard) book is extra special as it was prepared by a CBSE author who knows about CBSE markings, official paper setting and CBSE Class 10th Exam patterns more than any other CBSE expert in the country. We were lucky to have him prepare the papers of this Maths book. It’s been bought by more than 20,000+ students since it came out in October 2019 and is our best-seller already. This Book Covers the following: - 10 Practice Papers (solved) - 4 Self-assessment papers - CBSE September 2019 Sample Paper - CBSE March 2019 Board Paper (solved by topper) - CBSE 2018 Topper Answer Sheet Extra value items Added in this Book: - Utilising 15 minute reading time just before the exam (by CBSE topper) - Structuring your Maths Exam 3 hours smartly (by CBSE Markers) - 2020 marking scheme points (value points) underlined in each sample paper solution (CBSE markers look for these key points in your answers to allot full Marks). - The geometry section diagrams are accurately drawn to clear your understanding of all kinds of geometry questions that can appear in the upcoming February 2020 exam. A must buy book as vouched by many experts in Mathematics!",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789387806450"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9387806456"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 256,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=HF2_DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=HF2_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=HF2_DwAAQBAJ&pg=PP1&dq=subject%3Dhindi&hl=&cd=27&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=HF2_DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=HF2_DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 236,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 110.45,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=HF2_DwAAQBAJ&rdid=book-HF2_DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 236000000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 110450000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Educart_CBSE_Maths_Standard_Sample_Quest-sample-pdf.acsm?id=HF2_DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=HF2_DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This Book Covers the following: - 10 Practice Papers (solved) - 4 Self-assessment papers - CBSE September 2019 Sample Paper - CBSE March 2019 Board Paper (solved by topper) - CBSE 2018 Topper Answer Sheet Extra value items Added in this ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "JqkxEAAAQBAJ",
+      "etag": "CMsJj1b3KNQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/JqkxEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Prof. Drouu’s Career Coaching",
+        "authors": [
+          "Akshita Bahuguna, Dr Rajesh Naithani"
+        ],
+        "publisher": "Notion Press",
+        "publishedDate": "2021-06-01",
+        "description": "Which stream of study to pick after Class 10? Should one choose to follow a dream or choose a stable career? When are parents justified in choosing their children’s careers? After years of experience in advising student’s on careers options and tracking their success, the authors of this book present their combined wisdom on how to make informed decisions regarding your career. This book offers valuable advice to graduating students and their parents. It also talks about the skills and values needed to build successful careers, and explores all the alternate career options available to the students, besides professional courses.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781638736301"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1638736308"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 156,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=JqkxEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=JqkxEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=JqkxEAAAQBAJ&pg=PT54&dq=subject%3Dhindi&hl=&cd=28&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=JqkxEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=JqkxEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 150,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 105,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=JqkxEAAAQBAJ&rdid=book-JqkxEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 150000000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 105000000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=JqkxEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Teaching: Like any other \u003cb\u003esubject\u003c/b\u003e, \u003cb\u003eHindi\u003c/b\u003e teachers are paid well, not only within the national boundaries but also at the global level. CBSE syllabus based schools make it a point to have Hindi as compulsory subject at the primary level."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ZkkCEAAAQBAJ",
+      "etag": "ULUuJ8CHqdg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ZkkCEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Data Interpretation & Data Sufficiency",
+        "authors": [
+          "Ananta Ashisha, Sandeep Bajaj"
+        ],
+        "publisher": "Arihant Publications India limited",
+        "publishedDate": "2020-09-17",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789324197245"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "932419724X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 418,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ZkkCEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ZkkCEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=ZkkCEAAAQBAJ&pg=PA301&dq=subject%3Dhindi&hl=&cd=29&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ZkkCEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ZkkCEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 235.71,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 165,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=ZkkCEAAAQBAJ&rdid=book-ZkkCEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 235710000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 165000000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Data_Interpretation_Data_Sufficiency-sample-pdf.acsm?id=ZkkCEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ZkkCEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "How many boys have opted for the composite \u003cb\u003esubject\u003c/b\u003e? subjects together. (a) 30 (b) 15 (c) 21 (d) 32 (a) 12 ... Number of boys opting only \u003cb\u003eHindi\u003c/b\u003e is what per cent of A school consists of 2500 students. The ratio of boys to the number of&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "_ewvL93kFx4C",
+      "etag": "WriIUg7rB14",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/_ewvL93kFx4C",
+      "volumeInfo": {
+        "title": "Long Walk To Freedom",
+        "authors": [
+          "Nelson Mandela"
+        ],
+        "publisher": "Hachette UK",
+        "publishedDate": "2013-04-25",
+        "description": "These memoirs from one of the great leaders of our time are 'essential reading for anyone who wants to understand history - and then go out and change it' Barack Obama The riveting memoirs of the outstanding moral and political leader of our time, Long Walk to Freedom brilliantly re-creates the drama of the experiences that helped shape Nelson Mandela's destiny. Emotive, compelling and uplifting, Long Walk to Freedom is the exhilarating story of an epic life; a story of hardship, resilience and ultimate triumph told with the clarity and eloquence of a born leader. 'Enthralling . . . Mandela emulates the few great political leaders such as Lincoln and Gandhi, who go beyond mere consensus and move out ahead of their followers to break new ground' Sunday Times 'The authentic voice of Mandela shines through this book . . . humane, dignified and magnificently unembittered' The Times 'Burns with the luminosity of faith in the invincible nature of human hope and dignity . . . Unforgettable' Andre Brink",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781405530743"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "140553074X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 784,
+        "printType": "BOOK",
+        "categories": [
+          "Political Science"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 14,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.8.8.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=_ewvL93kFx4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=_ewvL93kFx4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=_ewvL93kFx4C&printsec=frontcover&dq=subject%3Dhindi&hl=&cd=30&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=_ewvL93kFx4C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=_ewvL93kFx4C"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 450.76,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 243.41,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=_ewvL93kFx4C&rdid=book-_ewvL93kFx4C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 450760000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 243410000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Long_Walk_To_Freedom-sample-epub.acsm?id=_ewvL93kFx4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=_ewvL93kFx4C&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Mandela emulates the few great political leaders such as Lincoln and Gandhi, who go beyond mere consensus and move out ahead of their followers to break new ground&#39; Sunday Times &#39;The authentic voice of Mandela shines through this book . . . ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "9MgtDwAAQBAJ",
+      "etag": "k21Dj1uID8w",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/9MgtDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Olympiad Champs Logical Reasoning Workbook Class 3 with 5 Mock Online Olympiad Tests",
+        "authors": [
+          "Disha Experts"
+        ],
+        "publisher": "Disha Publications",
+        "publishedDate": "2017-06-27",
+        "description": "This title contains an Access Code along with instructions to access the Online Material. In case you face any difficulty, write to us at ebooks.support@aiets.co.in. “Olympiad Champs Logical Reasoning Class 3 with 5 Online Mock Olympiad Tests” is the first of its kind book on Olympiad in many ways. The book is aimed at achieving not only success but deep rooted learning in children. There is an exhaustive range of thought provoking questions in MCQ format to test the student’s knowledge thoroughly. The questions are designed so as to test the knowledge, comprehension, evaluation, analytical and application skills. Solutions and explanations are provided for all questions. The questions are divided into two levels. Detailed solutions are provided for each question. The book also contains past questions of various Olympiad exams. The book also includes 5 Online Mock Olympiad Tests designed on the pattern of various prominent national Olympiad exams conducted across the various schools in India. With the vision to remove all the misconception a child may have pertaining to the subject, relate his knowledge to the real world and to develop a deeper understanding of the subject this book will cater all the requirements of the students who are going to appear in Olympiads.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789386320247"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "938632024X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 250,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=9MgtDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=9MgtDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=9MgtDwAAQBAJ&pg=PP1&dq=subject%3Dhindi&hl=&cd=31&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=9MgtDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=9MgtDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 199.42,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 79,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=9MgtDwAAQBAJ&rdid=book-9MgtDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 199420000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 79000000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Olympiad_Champs_Logical_Reasoning_Workbo-sample-pdf.acsm?id=9MgtDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=9MgtDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The book also contains past questions of various Olympiad exams. The book also includes 5 Online Mock Olympiad Tests designed on the pattern of various prominent national Olympiad exams conducted across the various schools in India."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "cDidBQAAQBAJ",
+      "etag": "CywkzK5w/Ik",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/cDidBQAAQBAJ",
+      "volumeInfo": {
+        "title": "S.S.B.Interviews",
+        "authors": [
+          "Major (retd.) P. N. Joshi"
+        ],
+        "publisher": "Upkar Prakashan",
+        "publishedDate": "2007-01-01",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788174821140"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8174821147"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 193,
+        "printType": "BOOK",
+        "averageRating": 4,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=cDidBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=cDidBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=cDidBQAAQBAJ&pg=PA106&dq=subject%3Dhindi&hl=&cd=32&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=cDidBQAAQBAJ&dq=subject%3Dhindi&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/S_S_B_Interviews.html?hl=&id=cDidBQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/S_S_B_Interviews-sample-pdf.acsm?id=cDidBQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=cDidBQAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Hindi is an interesting \u003cb\u003esubject\u003c/b\u003e. \u003cb\u003eHindi\u003c/b\u003e has the inter-relation with our civilization, social and cultural aspects. We therefore, follow this language and not English which is a foreign language. 4. Hindi was admitted frankly by our&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "tyfnDwAAQBAJ",
+      "etag": "SlJ5lI3EGJQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/tyfnDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Hin-Vyakaran Core-SM-11_12-R2",
+        "authors": [
+          "Vipin Gupt"
+        ],
+        "publisher": "New Saraswati House India Pvt Ltd",
+        "description": "Hin-Vyakaran Core-SM-11_12-R2",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789353623333"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9353623332"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Language Arts & Disciplines"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=tyfnDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=tyfnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "hi",
+        "previewLink": "http://books.google.co.in/books?id=tyfnDwAAQBAJ&pg=PA412&dq=subject%3Dhindi&hl=&cd=33&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=tyfnDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=tyfnDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 501.5,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 250.75,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=tyfnDwAAQBAJ&rdid=book-tyfnDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 501500000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 250750000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Hin_Vyakaran_Core_SM_11_12_R2-sample-pdf.acsm?id=tyfnDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=tyfnDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... of \u003cb\u003eHindi\u003c/b\u003e Elective and \u003cb\u003eHindi\u003c/b\u003e Core at Class-XII level, 2019 examination It has been stated in the Curriculum for Senior School Certificate Examination, 2019 that the project work for 10 marks in the subjects of \u003cb\u003eHindi\u003c/b\u003e Elective (\u003cb\u003eSubject\u003c/b\u003e&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "XCarNNGmOMYC",
+      "etag": "r415HYERC+I",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/XCarNNGmOMYC",
+      "volumeInfo": {
+        "title": "Experiencer Subjects in South Asian Languages",
+        "authors": [
+          "Mahendra K. Verma",
+          "K. P. Mohanan"
+        ],
+        "publisher": "Center for the Study of Language (CSLI)",
+        "publishedDate": "1990",
+        "description": "These papers explore an important syntactic feature of South Asian languages, the experiencer subject construction. Contributing scholars investigate this feature in such languages as Marathi, Bhojpuri, Sinhalese, Marwari, Oriya, Punjabi, Bengali, Kalasha, Gujarati, Bepali, Maithili, and Malayalam. The experiencer subject not only defines South Asian languages as a linguistic unit, but also has implications for theoretical linguistics. Mahendra Verma is a professor of linguistics at the University of Wisconsin, Madison. Tara Mohanan is a linguistics professor in the English department of the National University of Singapore.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0937073601"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780937073605"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 376,
+        "printType": "BOOK",
+        "categories": [
+          "Foreign Language Study"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.5.6.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=XCarNNGmOMYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=XCarNNGmOMYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=XCarNNGmOMYC&printsec=frontcover&dq=subject%3Dhindi&hl=&cd=34&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=XCarNNGmOMYC&dq=subject%3Dhindi&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Experiencer_Subjects_in_South_Asian_Lang.html?hl=&id=XCarNNGmOMYC"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Experiencer_Subjects_in_South_Asian_Lang-sample-pdf.acsm?id=XCarNNGmOMYC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=XCarNNGmOMYC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Mahendra Verma is a professor of linguistics at the University of Wisconsin, Madison. Tara Mohanan is a linguistics professor in the English department of the National University of Singapore."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "SRntDwAAQBAJ",
+      "etag": "ewzHkCW2tT8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/SRntDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Madhup Hindi Pathmala – 2",
+        "authors": [
+          "Prof. RAMJANAM SHARMA, DR. S.M.AHMED"
+        ],
+        "publisher": "Vikas Publishing House",
+        "description": "1. Available from Praveshika and classes 1 to 8, follows CBSE curriculum 2. Based on the concept ' How to study and why to study' 3. Index page introduces Learning Objective, Skill Development, Value Education and Learning Outcome of each chapter 4. Walkthrough Pages gives a picture of all the features of the book 5. Lesson begins with Chapter Introduction in classes 1 to 5. 6. Listening, Speaking, Reading and Writing skills (LSRW) are well developed through exercises 7. Chapter recall through Mind Map 8. Language Development through Subject Enrichment activities 9. Teacher's manual with Lesson Plans and Answers of the Questions given in the book 10. Digital content with e-book having Chapter Animation, Interactive Activities, Word-meanings, Synonym, Antonym, Vocabulary and Test Generator, Websupport having additional worksheets",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789352719600"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9352719603"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Foreign Language Study"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=SRntDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=SRntDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "hi",
+        "previewLink": "http://books.google.co.in/books?id=SRntDwAAQBAJ&printsec=frontcover&dq=subject%3Dhindi&hl=&cd=35&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=SRntDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=SRntDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 348.1,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 243.67,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=SRntDwAAQBAJ&rdid=book-SRntDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 348100000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 243670000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Madhup_Hindi_Pathmala_2-sample-pdf.acsm?id=SRntDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=SRntDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Index page introduces Learning Objective, Skill Development, Value Education and Learning Outcome of each chapter 4. Walkthrough Pages gives a picture of all the features of the book 5."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ZCfiGYvpLOQC",
+      "etag": "GKxxi2THK/Y",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ZCfiGYvpLOQC",
+      "volumeInfo": {
+        "title": "South Asian Languages",
+        "subtitle": "A Syntactic Typology",
+        "authors": [
+          "Kārumūri V. Subbārāo"
+        ],
+        "publisher": "Cambridge University Press",
+        "publishedDate": "2012-03-26",
+        "description": "Explores the similarities and differences of about forty South Asian languages from the four different language families.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780521861489"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0521861489"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 391,
+        "printType": "BOOK",
+        "categories": [
+          "Foreign Language Study"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ZCfiGYvpLOQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ZCfiGYvpLOQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=ZCfiGYvpLOQC&pg=PA162&dq=subject%3Dhindi&hl=&cd=36&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=ZCfiGYvpLOQC&dq=subject%3Dhindi&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/South_Asian_Languages.html?hl=&id=ZCfiGYvpLOQC"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/South_Asian_Languages-sample-pdf.acsm?id=ZCfiGYvpLOQC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ZCfiGYvpLOQC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "We provide additional evidence from Hindi-Urdu (114b), Bangla (IA) and Telugu (DR). Such evidences can be adduced from other SALs too. the vector verb bait.hn ̄a&#39;to sit&#39; with a nominative \u003cb\u003esubject Hindi\u003c/b\u003e-Urdu 162 Non-nominative subjects."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "rkgWlfVQfocC",
+      "etag": "4G9cFvze88U",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/rkgWlfVQfocC",
+      "volumeInfo": {
+        "title": "Decolonisation, Globalisation",
+        "subtitle": "Language-in-education Policy and Practice",
+        "authors": [
+          "Angel Lin",
+          "Peter W. Martin"
+        ],
+        "publisher": "Multilingual Matters",
+        "publishedDate": "2005-01-01",
+        "description": "This volume brings together scholars from around the world to juxtapose the voices of classroom participants alongside the voices of ruling elites with the aim of critically linking language policy issues with classroom practice in a range of contexts. The volume is suitable for postgraduate students, researchers and educators in a range of areas.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1853598240"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781853598241"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 228,
+        "printType": "BOOK",
+        "categories": [
+          "Language Arts & Disciplines"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=rkgWlfVQfocC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=rkgWlfVQfocC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=rkgWlfVQfocC&pg=PA30&dq=subject%3Dhindi&hl=&cd=37&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=rkgWlfVQfocC&dq=subject%3Dhindi&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Decolonisation_Globalisation.html?hl=&id=rkgWlfVQfocC"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Decolonisation_Globalisation-sample-pdf.acsm?id=rkgWlfVQfocC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=rkgWlfVQfocC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The students in \u003cb\u003eHindi\u003c/b\u003e states do not have the economic motivation to learn another Indian language . ... an examination ritual , which is also dispensed with in some states by declaring the third language as a non - examination \u003cb\u003esubject\u003c/b\u003e ."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "wO4JSxsmLCUC",
+      "etag": "LAblqnuDAyU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/wO4JSxsmLCUC",
+      "volumeInfo": {
+        "title": "Rajpal Pocket English Hindi Dictionary",
+        "authors": [
+          "Bahri",
+          "Dr. Hardev"
+        ],
+        "publisher": "Rajpal & Sons",
+        "publishedDate": "2009",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8170283132"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788170283133"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 484,
+        "printType": "BOOK",
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.3.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=wO4JSxsmLCUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=wO4JSxsmLCUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=wO4JSxsmLCUC&printsec=frontcover&dq=subject%3Dhindi&hl=&cd=38&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=wO4JSxsmLCUC&dq=subject%3Dhindi&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Rajpal_Pocket_English_Hindi_Dictionary.html?hl=&id=wO4JSxsmLCUC"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Rajpal_Pocket_English_Hindi_Dictionary-sample-pdf.acsm?id=wO4JSxsmLCUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=wO4JSxsmLCUC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "qBrzDwAAQBAJ",
+      "etag": "mYCWHTJu0P0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/qBrzDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Study Guide NTSE (MAT + SAT) for Class 10th 2019-2020",
+        "authors": [
+          "Arihant Experts"
+        ],
+        "publisher": "Arihant Publications India limited",
+        "publishedDate": "2019-09-10",
+        "description": "The National Talent Search Examination (NTSE) is conducted For Class 10 th students every year in order to identify and nurture talented the students of the nation. This examination has two stages STAGE I: State Level which is conducted by States whereas STAGE II: National Level which is conducted by NCERT. Qualifying students get scholarship the Government. The present edition of “NTSE (MAT+SAT)” Book for Class 10 th is carefully designed by as per the latest syllabus of NTSE paper. This book contains Solved papers of Stage I & Stage 2 of 2017 & 2018 respectively in the beginning so that aspirants can get acquainted with the question pattern of the exam. The book is divided into 5 sections and each section is further divided into chapters which gives the full coverage of the syllabus moreover ample amount of questions are provided after every chapter. At the end of the book there are 5 (Solved) Practice Papers are given for thorough practice so that candidates should be able to solve the problem easily during the exam. The main aim of these book to students by providing them with the best study material so that can attain ranking in the country. TABLE OF CONTENT Solved Paper 2019 (Stage - II), Solved Paper 2018 (Stage - I), Solved Paper 2018 (Stage - II), Solved Paper 2017 (Stage - I), PAPER I MAT (Mental Ability Test): PART I Verbal Reasoning, PART II Non-Verbal Reasoning, PAPER II SAT (Scholastic Aptitude Test): PART I Physics, PART II Chemistry, PART III Biology, PART IV Mathematics, PART V History, PART VI Geography, PART VII Civics, PART VIII Economics.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789313197843"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9313197847"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 960,
+        "printType": "BOOK",
+        "averageRating": 1,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=qBrzDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=qBrzDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=qBrzDwAAQBAJ&pg=PP1&dq=subject%3Dhindi&hl=&cd=39&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=qBrzDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qBrzDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 585,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 292.5,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=qBrzDwAAQBAJ&rdid=book-qBrzDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 585000000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 292500000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Study_Guide_NTSE_MAT_+_SAT_for_Class_10t-sample-pdf.acsm?id=qBrzDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=qBrzDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book contains Solved papers of Stage I &amp; Stage 2 of 2017 &amp; 2018 respectively in the beginning so that aspirants can get acquainted with the question pattern of the exam."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gHj_SJPyvX0C",
+      "etag": "xNoyVN0NOjQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gHj_SJPyvX0C",
+      "volumeInfo": {
+        "title": "Republic of the Philippines Congressional Record",
+        "subtitle": "Senate",
+        "authors": [
+          "Philippines. Congress (1940-1973). Senate"
+        ],
+        "publishedDate": "1959",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UCAL:C2950875"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Philippines"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.3.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=gHj_SJPyvX0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=gHj_SJPyvX0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=gHj_SJPyvX0C&pg=PA2168&dq=subject%3Dhindi&hl=&cd=40&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=gHj_SJPyvX0C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=gHj_SJPyvX0C"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=gHj_SJPyvX0C&rdid=book-gHj_SJPyvX0C&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.co.in/books/download/Republic_of_the_Philippines_Congressiona.epub?id=gHj_SJPyvX0C&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=gHj_SJPyvX0C&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Ako po ay hindi tutol sa so desires . susog na iyan nguni&#39;t gusto ko po lamang magSenator RECTO . ... Ang ibig pong sabihin ay in connection with the submission of the \u003cb\u003esubject hindi\u003c/b\u003e po naman magiging sapilitan ? to the Institute of&nbsp;..."
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
-package com.example.bookapi.data.repository.model
-
-data class Offer(
-    val finskyOfferType: Int,
-    val listPrice: ListPriceX,
-    val retailPrice: RetailPrice
-)
+//package com.example.bookapi.data.repository.model
+//
+//data class Offer(
+//    val finskyOfferType: Int,
+//    val listPrice: ListPriceX,
+//    val retailPrice: RetailPrice
+//)

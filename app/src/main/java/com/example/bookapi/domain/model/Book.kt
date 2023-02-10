@@ -1,4 +1,4 @@
-package com.example.bookapi.domain.usecase.datamodel
+package com.example.bookapi.domain.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

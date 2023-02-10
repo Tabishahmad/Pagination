@@ -4,9 +4,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.bookapi.comman.BookAppUtil
+import com.example.bookapi.common.BookAppUtil.loadWithGlide
 import com.example.bookapi.databinding.ImageRowBinding
-import com.example.bookapi.domain.usecase.datamodel.Book
+import com.example.bookapi.domain.model.Book
 
 class ImageListAdapter : RecyclerView.Adapter<ImageListAdapter.ImageHolder>() {
 
@@ -18,7 +18,7 @@ class ImageListAdapter : RecyclerView.Adapter<ImageListAdapter.ImageHolder>() {
     class ImageHolder(val b: ImageRowBinding) : RecyclerView.ViewHolder(b.root) {
 
         fun setImage(any: Any) {
-            BookAppUtil.setImage(b.iv.context,(any as Book).thumbnailUrl,b.iv)
+            b.iv.loadWithGlide(b.iv.context,(any as Book).thumbnailUrl)
         }
     }
 

@@ -4,20 +4,14 @@ import android.arch.core.executor.testing.InstantTaskExecutorRule
 import com.example.bookapi.MainCoroutineRule
 import com.example.bookapi.MockFileReader
 import com.example.bookapi.data.datamapper.BookListMapper
-import com.example.bookapi.data.repository.model.BookDTO
-import com.example.bookapi.data.repository.remote.IDataSource
-import com.example.bookapi.domain.usecase.datamodel.IResult
-import com.google.gson.Gson
+import com.example.bookapi.data.repository.remote.BookDataSource
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
-import com.squareup.moshi.Moshi
-import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import kotlinx.coroutines.runBlocking
 import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.MockWebServer
 import org.junit.*
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.converter.moshi.MoshiConverterFactory
 import java.io.IOException
 
 class BooApiTest {
@@ -30,7 +24,7 @@ class BooApiTest {
     @get:Rule
     var instantExecutorRule = InstantTaskExecutorRule()
 
-    private lateinit var webClient: IDataSource
+    private lateinit var webClient: BookDataSource
 
     @Before
     fun initService(){
@@ -48,7 +42,7 @@ class BooApiTest {
             .addConverterFactory(moshi)
             .addCallAdapterFactory(CoroutineCallAdapterFactory())
             .build()
-            .create(IDataSource::class.java)
+            .create(BookDataSource::class.java)
     }
 
     @Throws(IOException::class)

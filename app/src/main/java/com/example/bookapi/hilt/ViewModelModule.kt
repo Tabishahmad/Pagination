@@ -1,11 +1,8 @@
 package com.example.bookapi.hilt
 
-import com.example.bookapi.data.repository.IListRepositoryImpl
-import com.example.bookapi.data.repository.model.BookDTO
-import com.example.bookapi.data.repository.remote.IDataSource
-import com.example.bookapi.domain.EntityMapper
-import com.example.bookapi.domain.usecase.IListRepository
-import com.example.bookapi.domain.usecase.datamodel.Book
+import com.example.bookapi.data.repository.BookListRepositoryImpl
+import com.example.bookapi.data.repository.remote.BookDataSource
+import com.example.bookapi.domain.repository.BookListRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -16,10 +13,8 @@ import dagger.hilt.android.components.ViewModelComponent
 class ViewModelModule {
 
     @Provides
-    fun provideIListRepository(dataSource: IDataSource,
-                               @BookListMappingAnnotation
-                                mapper: EntityMapper<BookDTO, List<Book>>):IListRepository{
-        return IListRepositoryImpl(dataSource,mapper)
+    fun provideIListRepository(dataSource: BookDataSource): BookListRepository {
+        return BookListRepositoryImpl(dataSource)
     }
 
 }

@@ -1,6 +1,6 @@
 package com.example.bookapi.data.repository.model
 
-import com.example.bookapi.domain.usecase.datamodel.Book
+import com.example.bookapi.domain.model.Book
 
 data class BookDTO(
     val items: List<Item>,

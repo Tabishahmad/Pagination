@@ -7,7 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.bookapi.common.BookAppUtil.showToast
+import com.example.bookapi.common.gone
+import com.example.bookapi.common.showToast
+import com.example.bookapi.common.visible
 import com.example.bookapi.databinding.FragmentListBinding
 import com.example.bookapi.domain.model.Book
 import com.example.bookapi.presentation.BaseFragment
@@ -18,7 +20,7 @@ import kotlinx.coroutines.launch
 
 
 @AndroidEntryPoint
-class ListFragment : BaseFragment() {
+class ListFragment : BaseFragment(),ImageListAdapter.ImageClickListener {
     private lateinit var binding: FragmentListBinding
     private val viewModel: ListViewModel by viewModels()
 
@@ -39,7 +41,7 @@ class ListFragment : BaseFragment() {
                     is ViewState.Loading ->
                         showProgressBar()
                     is ViewState.Success -> {
-                        setupScreen(viewState.result)
+                        setupRecyclersView(viewState.result)
                     }
                     is ViewState.Failure -> {
                         hideProgressBar()
@@ -52,14 +54,19 @@ class ListFragment : BaseFragment() {
         }
     }
     private fun hideProgressBar(){
-        binding.progressBar.visibility = View.GONE
+        binding.progressBar.gone()
     }
     private fun showProgressBar(){
-        binding.progressBar.visibility = View.VISIBLE
+        binding.progressBar.visible()
     }
-    private fun setupScreen(list:List<Book>){
+    private fun setupRecyclersView(list:List<Book>){
         hideProgressBar()
         binding.rv.layoutManager = GridLayoutManager(requireContext(), 3)
         binding.rv.setData(list)
+        binding.rv.setItemClickListener(this)
+    }
+
+    override fun onImageClick(view: View, any: Any, index: Int) {
+        viewModel.handleBookFav(any as Book)
     }
 }

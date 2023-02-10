@@ -4,6 +4,7 @@ import android.content.Context
 import android.util.AttributeSet
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.bookapi.domain.model.Book
 
 class ImageRecyclerview : RecyclerView {
 
@@ -32,13 +33,15 @@ class ImageRecyclerview : RecyclerView {
         return adapter as ImageListAdapter
     }
 
-    fun setData(list: List<Any>) {
-        getMAdapter().setList(list)
+    fun setData(list: List<Book>) {
+        getMAdapter().differ.submitList(list)
     }
 
 
-    fun setItemClickListener(listener: ImageListAdapter.CardClickListener) {
+    fun setItemClickListener(listener: ImageListAdapter.ImageClickListener) {
         getMAdapter().setClickListener(listener)
     }
 
 }
+
+

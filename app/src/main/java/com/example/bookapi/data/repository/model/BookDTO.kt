@@ -12,7 +12,7 @@ data class BookDTO(
         for (item in items){
             item.volumeInfo?.title.let {
                 val thumbNail = item.volumeInfo?.imageLinks?.thumbnail ?: ""
-                bookArray.add(Book(item.volumeInfo?.title!!,thumbNail))
+                bookArray.add(Book(item.id,item.volumeInfo?.title!!,thumbNail))
             }
         }
         return bookArray

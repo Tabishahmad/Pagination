@@ -8,18 +8,18 @@ import org.mockito.Mockito.mock
 
 class WebServiceResponseTest {
 
-//    @Test
-//    fun testOnSuccess(){
-//        val bookResponse = mock(Book::class.java)
-//        var list : ArrayList<Book> = ArrayList(1)
-//        list.add(bookResponse)
-//        val success = NetworkResult.Success(list)
-//        Assert.assertTrue(success is NetworkResult)
-//    }
+    @Test
+    fun testOnSuccess(){
+        val bookResponse = mock(Book::class.java)
+        var list : ArrayList<Book> = ArrayList(1)
+        list.add(bookResponse)
+        val success = NetworkResult.Success(list)
+        Assert.assertTrue(success is NetworkResult.Success)
+    }
 //
-//    @Test
-//    fun testOnFailure() {
-//        val error = NetworkResult.Failure(Throwable())
-//        Assert.assertTrue(error is NetworkResult.Failure)
-//    }
+    @Test
+    fun testOnFailure() {
+        val error = NetworkResult.Failure(Throwable())
+        Assert.assertTrue(error is NetworkResult.Failure)
+    }
 }

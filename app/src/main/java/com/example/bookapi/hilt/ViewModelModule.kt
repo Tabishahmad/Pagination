@@ -1,5 +1,6 @@
 package com.example.bookapi.hilt
 
+import com.example.bookapi.data.datamapper.RoomNRemoteMerger
 import com.example.bookapi.data.repository.BookListRepositoryImpl
 import com.example.bookapi.data.repository.remote.BookDataSource
 import com.example.bookapi.domain.repository.BookListRepository
@@ -12,6 +13,7 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ViewModelComponent
+import javax.inject.Singleton
 
 @Module
 @InstallIn(ViewModelComponent::class)
@@ -26,6 +28,10 @@ class ViewModelModule {
                             dbRepository: DBRepository):BookListUseCase{
         return BookListUseCase(GetListUseCase(bookListRepository),
             HandleBookFavUseCase(dbRepository), GetAllFavBooksUseCase(dbRepository))
+    }
+    @Provides
+    fun provideRoomNRemoteMerger():RoomNRemoteMerger{
+        return RoomNRemoteMerger()
     }
 
 }

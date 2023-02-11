@@ -1,10 +1,12 @@
 package com.example.bookapi.presentation.introduction.viewmodel
 
 import com.example.bookapi.MockFileReader
-import com.example.bookapi.data.datamapper.BookListMapper
 import com.example.bookapi.data.repository.model.BookDTO
 import com.example.bookapi.domain.usecase.GetListUseCase
 import com.example.bookapi.domain.model.Book
+import com.example.bookapi.domain.model.NetworkResult
+import com.example.bookapi.domain.usecase.BookListUseCase
+import com.example.bookapi.presentation.ViewState
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import kotlinx.coroutines.flow.flow
@@ -23,18 +25,18 @@ internal class ListViewModelTest {
     private lateinit var viewModel: ListViewModel
 
     @Mock
-    private lateinit var useCase: GetListUseCase
+    private lateinit var bookListUseCase: BookListUseCase
 
 
 
     @Before
     fun setUp() {
         MockitoAnnotations.initMocks(this)
-        viewModel = ListViewModel(useCase)
+        viewModel = ListViewModel(bookListUseCase)
     }
 
     private fun getListRespose(): List<Book> {
-        val movieListMapperTest = BookListMapper()
+
         val fileName = "/ListItemsResponse.json"
         val json = MockFileReader().getResponseFromJson(fileName)
 
@@ -42,17 +44,17 @@ internal class ListViewModelTest {
             .adapter(BookDTO::class.java).fromJson(json)
 
         movieItemsListResponse?.let {
-            return movieListMapperTest.transformFrom(it)
+            return movieItemsListResponse?.toBook()!!
         }
         return emptyList()
     }
     @Test
     fun fetchListSuccessTest() = runBlocking {
         val flow = flow{
-            emit(IResult.Success(getListRespose()))
+            emit(NetworkResult.Success(getListRespose()))
         }
 
-        Mockito.`when`(useCase()).thenReturn(flow)
+        Mockito.`when`(bookListUseCase.getListUseCase()).thenReturn(flow)
 
         viewModel.fetchList()
 
@@ -63,18 +65,18 @@ internal class ListViewModelTest {
     }
 
     @Test
-//    fun fetchMovieLisLoadingTest() = runBlocking {
-//        val flow = flow{
-//            emit(IResult.Success(emptyList<Book>()))
-//        }
-//
-//        Mockito.`when`(useCase()).thenReturn(flow)
-//
-//        viewModel.fetchList()
-//
-////        Assert.assertEquals(
-////            ViewState.Loading(true), viewModel.getViewStateFlow().value)
-//    }
+    fun fetchMovieLisLoadingTest() = runBlocking {
+        val flow = flow{
+            emit(NetworkResult.Success(emptyList<Book>()))
+        }
+
+        Mockito.`when`(bookListUseCase.getListUseCase()).thenReturn(flow)
+
+        viewModel.fetchList()
+
+        Assert.assertEquals(
+            ViewState.Loading(true), viewModel.getViewStateFlow().value)
+    }
     @After
     fun tearDown() {
     }

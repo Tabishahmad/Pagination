@@ -13,6 +13,7 @@ class BookItemsListResponseTest {
     fun createMovieItemFromJson() {
         val fileName = "/ListItemsResponse.json"
         val json = MockFileReader().getResponseFromJson(fileName)
+
         val movieItemsListResponse = Moshi.Builder().add(KotlinJsonAdapterFactory()).build()
             .adapter(BookDTO::class.java).fromJson(json)
 

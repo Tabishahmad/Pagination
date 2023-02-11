@@ -48,12 +48,9 @@ class ImageListAdapter : RecyclerView.Adapter<ImageListAdapter.ImageHolder>() {
         holder.handleFavorite(book.isFav)
         holder.b.card.setOnClickListener {
             val book = differ.currentList[position]
-            println("clickDebug 1 " + book.isFav)
             book.isFav = !book.isFav
-            println("clickDebug 2 " + book.isFav)
             imageClickListener?.onImageClick(it, book, position)
             notifyDataSetChanged()
-
         }
     }
 

@@ -3,7 +3,6 @@ package com.example.bookapi.data.repository
 import android.arch.core.executor.testing.InstantTaskExecutorRule
 import com.example.bookapi.MainCoroutineRule
 import com.example.bookapi.MockFileReader
-import com.example.bookapi.data.datamapper.BookListMapper
 import com.example.bookapi.data.repository.remote.BookDataSource
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import kotlinx.coroutines.runBlocking
@@ -31,10 +30,6 @@ class BooApiTest {
         mockWebServer = MockWebServer()
         mockWebServer.start()
 
-//        val moshi =  GsonConverterFactory.Builder()
-//            .add(KotlinJsonAdapterFactory())
-//            .build()
-
         val moshi = GsonConverterFactory.create()
 
         webClient = Retrofit.Builder()
@@ -60,16 +55,9 @@ class BooApiTest {
         runBlocking {
             mockResponseFromJson("/ListItemsResponse.json")
             val movieListItemResponse = webClient.downloadBookList()
-            val movieListMapperTest = BookListMapper()
 
-            val movieItemsListResponse = movieListItemResponse.body()
-                ?.let { movieListMapperTest.transformFrom(it) }
+            val movieItemsListResponse = movieListItemResponse.body()?.toBook()
 
-
-
-//            val movieList = IResult.Success(movieItemsListResponse)
-
-//            Assert.assertEquals(movieList.data?.get(0)?.bookTitle, "tt1745960")
             Assert.assertEquals(movieItemsListResponse?.size, 40)
         }
     }

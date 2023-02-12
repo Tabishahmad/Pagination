@@ -1,51 +1,96 @@
 package com.example.bookapi.data.database
 
+import android.content.Context
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
+import androidx.room.Room
+import androidx.test.core.app.ApplicationProvider
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import app.cash.turbine.test
+import com.example.TestDispatcherRule
 import com.example.bookapi.domain.model.Book
-import dagger.hilt.android.testing.HiltAndroidTest
-import org.junit.Rule
-import dagger.hilt.android.testing.HiltAndroidRule
+import junit.framework.TestCase
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.test.runTest
 import org.junit.After
-import org.junit.Assert
 import org.junit.Before
+import org.junit.Rule
 import org.junit.Test
-import javax.inject.Inject
-import javax.inject.Named
+import org.junit.runner.RunWith
 
-@HiltAndroidTest
-class FavouriteBookDUOTest {
 
-    @get:Rule
-    val hiltAndroidRule = HiltAndroidRule(this)
+@OptIn(ExperimentalCoroutinesApi::class)
+@RunWith(AndroidJUnit4::class)
+class FavouriteBookDUOTest : TestCase() {
 
-    @get:Rule
-    val instantExecutorRule = InstantTaskExecutorRule()
 
-    @Inject
-    @Named("test_db")
+
+
     private lateinit var favouriteBookDUO: FavouriteBookDUO
-    @Inject
     private lateinit var favouriteBookDatabase: FavouriteBookDatabase
 
+    @get: Rule
+    val dispatcherRule = TestDispatcherRule()
+
     @Before
-    fun setUp() {
-        hiltAndroidRule.inject()
+    public override fun setUp() {
+
+        val context = ApplicationProvider.getApplicationContext<Context>()
+        // initialize the db and dao variable
+        favouriteBookDatabase = Room.inMemoryDatabaseBuilder(context,FavouriteBookDatabase::class.java).build()
         favouriteBookDUO = favouriteBookDatabase.favouriteBookDUO()
     }
 
     @Test
-    fun insertBook() = runBlocking{
-        val book = Book("A1B2","Test Book","http://www.example.com")
-        favouriteBookDUO.markFavouriteBook(book)
-        val result = favouriteBookDUO.getAllFavouriteBook()
-        result.collect{
-            Assert.assertEquals(1, it.size)
+    fun addItem_shouldReturn_theItem_inFlow() = runTest(){
+        val item1 = Book("A1B2","Test Book","http://www.example.com")
+        val item2 = Book("A2B3","Test Book 2","http://www.example.com")
+        favouriteBookDUO.markFavouriteBook(item1)
+        favouriteBookDUO.markFavouriteBook(item2)
+
+        favouriteBookDUO.getAllFavouriteBook().test {
+            val list = awaitItem()
+            assert(list.contains(item1))
+            assert(list.contains(item2))
+            cancel()
+        }
+    }
+    @Test
+    fun deletedItem_shouldNot_be_present_inFlow() = runTest() {
+        val item1 = Book("A1B2","Test Book","http://www.example.com")
+        val item2 = Book("A2B3","Test Book 2","http://www.example.com")
+        favouriteBookDUO.markFavouriteBook(item1)
+        favouriteBookDUO.markFavouriteBook(item2)
+        favouriteBookDUO.removeBookFromFavourite(item2)
+
+        favouriteBookDUO.getAllFavouriteBook().test {
+            val list = awaitItem()
+            assert(list.size == 1)
+            assert(list.contains(item1))
+            cancel()
+        }
+    }
+
+    @Test
+    fun updateItem_shouldReturn_theItem_inFlow() = runTest {
+        val item1 = Book("A1B2","Test Book","http://www.example.com")
+        val item2 = Book("A2B3","Test Book 2","http://www.example.com")
+        val item3 = Book("A2B3","Test Book 3","http://www.example.com")
+
+        favouriteBookDUO.markFavouriteBook(item1)
+        favouriteBookDUO.markFavouriteBook(item2)
+        favouriteBookDUO.markFavouriteBook(item3)
+
+        favouriteBookDUO.getAllFavouriteBook().test {
+            val list = awaitItem()
+            assert(list.size == 2)
+            assert(list.contains(item3))
+            cancel()
         }
     }
 
     @After
-    fun closeDatabase() {
+    public fun closeDatabase() {
         favouriteBookDatabase.close()
     }
 }

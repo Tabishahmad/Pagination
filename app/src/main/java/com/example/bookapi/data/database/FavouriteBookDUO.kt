@@ -12,7 +12,10 @@ interface FavouriteBookDUO {
     @Query("SELECT * FROM $TABLE_NAME")
     fun getAllFavouriteBook(): Flow<List<Book>>
 
-    @Insert
+    @Query("SELECT * FROM $TABLE_NAME")
+    fun getAllBook(): List<Book>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun markFavouriteBook(book: Book)
 
     @Delete

@@ -9,6 +9,10 @@ data class BookDTO(
 
     fun toBook():List<Book>{
         val bookArray : ArrayList<Book> = ArrayList(items.size)
+
+//        items.associateBy { it.id }
+//        val bookArray  = items.groupingBy { it.id }
+//        var book
         for (item in items){
             item.volumeInfo?.title.let {
                 val thumbNail = item.volumeInfo?.imageLinks?.thumbnail ?: ""

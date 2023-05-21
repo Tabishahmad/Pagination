@@ -16,6 +16,9 @@ import com.example.bookapi.presentation.BaseFragment
 import com.example.bookapi.presentation.ViewState
 import com.example.bookapi.presentation.introduction.viewmodel.ListViewModel
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.async
+import kotlinx.coroutines.job
 import kotlinx.coroutines.launch
 
 
@@ -31,6 +34,16 @@ class ListFragment : BaseFragment(),ImageListAdapter.ImageClickListener {
     ): View {
         binding = FragmentListBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    private suspend fun learncoro(){
+        val job = GlobalScope.async {
+            "adadsa"
+        }
+        val a = job.await()
+
+
+        println("sfsf" + a)
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

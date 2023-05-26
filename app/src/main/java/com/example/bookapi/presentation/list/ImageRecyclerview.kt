@@ -1,4 +1,4 @@
-package com.example.bookapi.presentation.introduction.screen
+package com.example.bookapi.presentation.list
 
 import android.content.Context
 import android.util.AttributeSet
@@ -34,11 +34,11 @@ class ImageRecyclerview : RecyclerView {
     }
 
     fun setData(list: List<Book>) {
-        getMAdapter().differ.submitList(list)
+        getMAdapter().updateList(list)
     }
 
 
-    fun setItemClickListener(listener: ImageListAdapter.ImageClickListener) {
+    fun setItemClickListener(listener: ImageListAdapter.ItemClickListener) {
         getMAdapter().setClickListener(listener)
     }
 

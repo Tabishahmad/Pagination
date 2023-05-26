@@ -9,7 +9,7 @@ import javax.inject.Inject
 class GetListUseCase @Inject constructor (
     private val repository: BookListRepository
 ) {
-    suspend operator fun invoke(): Flow<NetworkResult<Book>> = flow {
+     operator fun invoke(): Flow<NetworkResult<Book>> = flow {
         emit(repository.getBookList())
     }
 }

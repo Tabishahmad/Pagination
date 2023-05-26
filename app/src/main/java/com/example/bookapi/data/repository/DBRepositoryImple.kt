@@ -4,26 +4,23 @@ import com.example.bookapi.data.database.FavouriteBookDUO
 import com.example.bookapi.domain.model.Book
 import com.example.bookapi.domain.repository.DBRepository
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.StateFlow
 import javax.inject.Inject
 
-class DBRepositoryImpl @Inject constructor(val favouriteBookDUO:FavouriteBookDUO):DBRepository {
-    override suspend fun handleBookFav(book: Book) {
-        try {
-            println("clickDebug 3 " + book.isFav)
-            if(book.isFav){
-                println()
-                favouriteBookDUO.markFavouriteBook(book)
-            }else{
-                favouriteBookDUO.removeBookFromFavourite(book)
-            }
-        }catch (e:Exception){
-            e.printStackTrace()
-        }
+class DBRepositoryImpl @Inject constructor(private val favouriteBookDUO:FavouriteBookDUO):DBRepository {
+    override suspend fun setBookFavorite(book: Book) {
+        favouriteBookDUO.markFavouriteBook(book)
+    }
 
+    override suspend fun removeBookFromFavorites(book: Book) {
+        favouriteBookDUO.removeBookFromFavorites(book)
     }
-    override fun getAllBooks(): Flow<List<Book>> {
-        println("clickDebug 6 " )
-        return favouriteBookDUO.getAllFavouriteBook()
+
+    override fun getBooksList(): Flow<List<Book>> {
+        return favouriteBookDUO.getAllFavoriteBooks()
     }
+
+    override suspend fun getBook(bookId:String): Book {
+        return favouriteBookDUO.getBook(bookId)
+    }
+
 }

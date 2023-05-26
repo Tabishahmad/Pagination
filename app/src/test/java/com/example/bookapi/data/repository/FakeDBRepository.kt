@@ -8,11 +8,11 @@ import kotlinx.coroutines.flow.flow
 class FakeDBRepository : DBRepository {
     private val books = mutableListOf<Book>()
 
-    override suspend fun handleBookFav(book: Book) {
+    override suspend fun setBookFavorite(book: Book) {
        book.isFav = !book.isFav
     }
 
-    override fun getAllBooks(): Flow<List<Book>> {
+    override fun getBooksList(): Flow<List<Book>> {
         return flow { emit(books) }
     }
 }

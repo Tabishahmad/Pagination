@@ -18,9 +18,6 @@ object NetworkModule {
     fun provideGsonConverterFactory(): GsonConverterFactory {
         return GsonConverterFactory.create()
     }
-//    @Provides
-//    fun provideMoshiConverterFactory(): MoshiConverterFactory = MoshiConverterFactory.create()
-
     @Provides
     fun provideRetrofitClient(gsonConverterFactory: GsonConverterFactory): Retrofit {
         return Retrofit.Builder()
@@ -33,21 +30,4 @@ object NetworkModule {
     fun provideBookApi(retrofit: Retrofit): BookDataSource {
         return retrofit.create(BookDataSource::class.java)
     }
-
-//    @Provides
-//    fun provideInterceptor(): Interceptor = HttpLoggingInterceptor().apply {
-//        level = HttpLoggingInterceptor.Level.BODY
-//    }
-
-//    @Provides
-//    fun provideOKHttpClient(interceptor: Interceptor) = OkHttpClient().apply {
-//        OkHttpClient.Builder().apply {
-//            callTimeout(Constants.CALL_TIMEOUT, TimeUnit.SECONDS)
-//            connectTimeout(Constants.CONNECT_TIMEOUT, TimeUnit.SECONDS)
-//            readTimeout(Constants.READ_TIMEOUT, TimeUnit.SECONDS)
-//            writeTimeout(Constants.WRITE_TIMEOUT, TimeUnit.SECONDS)
-//            addInterceptor(interceptor)
-//            build()
-//        }
-//    }
 }

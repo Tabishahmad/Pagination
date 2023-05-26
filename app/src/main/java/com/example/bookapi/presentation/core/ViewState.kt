@@ -1,7 +1,7 @@
-package com.example.bookapi.presentation
+package com.example.bookapi.presentation.core
 
 sealed class ViewState<out T : Any> {
     data class Loading(val isLoading: Boolean) : ViewState<Nothing>()
     data class Success<out T : Any>(val result: T) : ViewState<T>()
-    data class Failure(val throwable: Throwable) : ViewState<Nothing>()
+    data class Failure(val failMessage: String) : ViewState<Nothing>()
 }

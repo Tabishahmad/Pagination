@@ -1,5 +1,7 @@
 package com.example.bookapi.data.repository
 
+import android.content.Context
+import com.example.bookapi.R
 import com.example.bookapi.data.repository.remote.BookDataSource
 import com.example.bookapi.domain.repository.BookListRepository
 import com.example.bookapi.domain.model.Book
@@ -7,19 +9,19 @@ import com.example.bookapi.domain.model.NetworkResult
 import javax.inject.Inject
 
 class BookListRepositoryImpl @Inject
-        constructor(private val apiCall: BookDataSource): BookListRepository {
+        constructor(private val apiCall: BookDataSource,private val context: Context): BookListRepository {
 
     override suspend fun getBookList(): NetworkResult<Book> {
-        try {
+        println("getBookList(): NetworkResult<Book>")
+        return try {
             val response = apiCall.downloadBookList()
             if (response.isSuccessful) {
-                return NetworkResult.Success(response.body()!!.toBook())
+                NetworkResult.Success(response.body()?.toBook() ?: emptyList())
             } else {
-                return NetworkResult.Failure(throw Exception())
+                NetworkResult.Failure(context.getString(R.string.faild_to_retrive))
             }
-        }catch (e:Exception){
-            e.printStackTrace()
-            return NetworkResult.Failure(throw Exception())
+        } catch (e: Exception) {
+            NetworkResult.Failure(context.getString(R.string.faild_to_retrive))
         }
     }
 }

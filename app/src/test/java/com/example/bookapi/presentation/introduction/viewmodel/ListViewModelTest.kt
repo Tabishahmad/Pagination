@@ -2,10 +2,9 @@ package com.example.bookapi.presentation.introduction.viewmodel
 
 import com.example.bookapi.MockFileReader
 import com.example.bookapi.data.repository.model.BookDTO
-import com.example.bookapi.domain.usecase.GetListUseCase
 import com.example.bookapi.domain.model.Book
 import com.example.bookapi.domain.model.NetworkResult
-import com.example.bookapi.domain.usecase.BookListUseCase
+import com.example.bookapi.domain.usecase.UseCase
 import com.example.bookapi.presentation.ViewState
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
@@ -25,7 +24,7 @@ internal class ListViewModelTest {
     private lateinit var viewModel: ListViewModel
 
     @Mock
-    private lateinit var bookListUseCase: BookListUseCase
+    private lateinit var bookListUseCase: UseCase
 
 
 

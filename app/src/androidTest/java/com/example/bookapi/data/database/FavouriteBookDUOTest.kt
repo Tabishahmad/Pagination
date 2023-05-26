@@ -1,7 +1,6 @@
 package com.example.bookapi.data.database
 
 import android.content.Context
-import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -10,7 +9,6 @@ import com.example.TestDispatcherRule
 import com.example.bookapi.domain.model.Book
 import junit.framework.TestCase
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.test.runTest
 import org.junit.After
 import org.junit.Before
@@ -48,7 +46,7 @@ class FavouriteBookDUOTest : TestCase() {
         favouriteBookDUO.markFavouriteBook(item1)
         favouriteBookDUO.markFavouriteBook(item2)
 
-        favouriteBookDUO.getAllFavouriteBook().test {
+        favouriteBookDUO.getAllFavoriteBooks().test {
             val list = awaitItem()
             assert(list.contains(item1))
             assert(list.contains(item2))
@@ -63,7 +61,7 @@ class FavouriteBookDUOTest : TestCase() {
         favouriteBookDUO.markFavouriteBook(item2)
         favouriteBookDUO.removeBookFromFavourite(item2)
 
-        favouriteBookDUO.getAllFavouriteBook().test {
+        favouriteBookDUO.getAllFavoriteBooks().test {
             val list = awaitItem()
             assert(list.size == 1)
             assert(list.contains(item1))
@@ -81,7 +79,7 @@ class FavouriteBookDUOTest : TestCase() {
         favouriteBookDUO.markFavouriteBook(item2)
         favouriteBookDUO.markFavouriteBook(item3)
 
-        favouriteBookDUO.getAllFavouriteBook().test {
+        favouriteBookDUO.getAllFavoriteBooks().test {
             val list = awaitItem()
             assert(list.size == 2)
             assert(list.contains(item3))

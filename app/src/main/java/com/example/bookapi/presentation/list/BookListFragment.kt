@@ -17,7 +17,6 @@ import com.example.bookapi.presentation.core.ViewState
 import com.example.bookapi.presentation.core.base.BaseFragment
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
-import androidx.fragment.app.viewModels
 
 
 @AndroidEntryPoint

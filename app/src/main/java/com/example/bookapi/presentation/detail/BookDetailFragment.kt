@@ -17,24 +17,7 @@ class BookDetailFragment : BaseFragment<BookListViewModel, FragmentBookDetailBin
     R.layout.fragment_book_detail
 ) {
     override val viewModel: BookListViewModel by viewModels()
-
     private var currentIndex: Int = 0
-//    override fun onCreateView(
-//        inflater: LayoutInflater,
-//        container: ViewGroup?,
-//        savedInstanceState: Bundle?
-//    ): View {
-//        binding = FragmentBookDetailBinding.inflate(inflater, container, false)
-////        binding : FragmentBookDetailBinding  = DataBindingUtil.setContentView(requireActivity(),R.layout.fragment_book_detail)
-//        binding.viewModel = viewModel
-//        arguments?.getInt(LIST_INDEX)?.let {
-//            currentIndex = it
-//            viewModel.fetchList()
-//            println("handleFav observeViewModel")
-//            observeViewModel()
-//        }
-//        return binding.root
-//    }
 
     override fun init() {
         arguments?.getInt(LIST_INDEX)?.let {
@@ -62,7 +45,6 @@ class BookDetailFragment : BaseFragment<BookListViewModel, FragmentBookDetailBin
 
     private fun handleResponseSuccess(book: Book) {
         binding.book = book
-        println("handleFav called")
         setFavoriteBookResource(book)
         setText(book.thumbnailUrl)
     }

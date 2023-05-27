@@ -21,14 +21,14 @@
         <!-- TextView -->
         <TextView
             android:id="@+id/textView"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="56dp"
-            android:text="ABCD"
+            android:text="@string/loading"
             android:textSize="18sp" />
 
         <androidx.cardview.widget.CardView
@@ -63,9 +63,15 @@
                     android:onClick="@{(view) ->viewModel.handleFavoriteBook(view,book)}"
                     android:background="?android:attr/selectableItemBackground"
                     android:padding="5dp"
-                    android:src="@drawable/ic_favorite" />
+                    android:src="@drawable/ic_favorite_border" />
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
     </RelativeLayout>
 </layout>

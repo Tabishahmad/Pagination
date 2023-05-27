@@ -16,12 +16,12 @@ abstract class BaseActivity<Binding : ViewDataBinding>(
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        preSetViewInit()
+        preSetContentViewInit()
         binding = DataBindingUtil.setContentView(this, layoutId)
         init()
         observeViewModel()
     }
-    open fun preSetViewInit(){}
+    open fun preSetContentViewInit(){}
     open fun init() {}
 
     open fun observeViewModel(){}

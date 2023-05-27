@@ -59,7 +59,7 @@ class FavouriteBookDUOTest : TestCase() {
         val item2 = Book("A2B3","Test Book 2","http://www.example.com")
         favouriteBookDUO.markFavouriteBook(item1)
         favouriteBookDUO.markFavouriteBook(item2)
-        favouriteBookDUO.removeBookFromFavourite(item2)
+        favouriteBookDUO.removeBookFromFavorites(item2)
 
         favouriteBookDUO.getAllFavoriteBooks().test {
             val list = awaitItem()

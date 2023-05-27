@@ -1,11 +1,13 @@
 package com.example.bookapi.presentation.introduction.viewmodel
 
+import android.content.Context
 import com.example.bookapi.MockFileReader
 import com.example.bookapi.data.repository.model.BookDTO
 import com.example.bookapi.domain.model.Book
 import com.example.bookapi.domain.model.NetworkResult
 import com.example.bookapi.domain.usecase.UseCase
-import com.example.bookapi.presentation.ViewState
+import com.example.bookapi.presentation.core.ViewState
+import com.example.bookapi.presentation.list.BookListViewModel
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import kotlinx.coroutines.flow.flow
@@ -21,17 +23,19 @@ import org.mockito.MockitoAnnotations
 
 internal class ListViewModelTest {
 
-    private lateinit var viewModel: ListViewModel
+    private lateinit var viewModel: BookListViewModel
 
     @Mock
     private lateinit var bookListUseCase: UseCase
+    @Mock
+    private lateinit var context: Context
 
 
 
     @Before
     fun setUp() {
         MockitoAnnotations.initMocks(this)
-        viewModel = ListViewModel(bookListUseCase)
+        viewModel = BookListViewModel(bookListUseCase,context)
     }
 
     private fun getListRespose(): List<Book> {
@@ -74,7 +78,7 @@ internal class ListViewModelTest {
         viewModel.fetchList()
 
         Assert.assertEquals(
-            ViewState.Loading(true), viewModel.getViewStateFlow().value)
+            ViewState.Loading(true), viewModel.getviewStateFlow().value)
     }
     @After
     fun tearDown() {

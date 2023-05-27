@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.Flow
 interface FavouriteBookDUO {
 
     @Query("SELECT * FROM $TABLE_NAME")
-    fun getAllFavoriteBooks(): Flow<List<Book>>
+    suspend fun getAllFavoriteBooks(): List<Book>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun markFavouriteBook(book: Book)

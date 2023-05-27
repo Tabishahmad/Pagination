@@ -17,13 +17,14 @@
         tools:context=".presentation.splash.SplashActivity">
 
 
+
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/startBtn"
+            android:id="@+id/startListFragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:backgroundTint="@color/white"
-            android:onClick="@{() -> viewModel.onPressStartButton()}"
+            android:onClick="@{() -> viewModel.startListFragment()}"
             android:padding="12dp"
             android:text="@string/start_text_splash"
             android:textAllCaps="true"

@@ -15,7 +15,7 @@ class DBRepositoryImpl @Inject constructor(private val favouriteBookDUO:Favourit
         favouriteBookDUO.removeBookFromFavorites(book)
     }
 
-    override fun getBooksList(): Flow<List<Book>> {
+    override suspend fun getBooksList(): List<Book> {
         return favouriteBookDUO.getAllFavoriteBooks()
     }
 

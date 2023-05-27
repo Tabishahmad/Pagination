@@ -1,7 +1,12 @@
 package com.example.bookapi.presentation.list
 
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
 import android.view.View
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
@@ -26,8 +31,18 @@ class BookListFragment : BaseFragment<BookListViewModel,FragmentBookListBinding>
     override val viewModel: BookListViewModel by activityViewModels()
 
     override fun init() {
+        setHasOptionsMenu(true)
         viewModel.fetchList()
     }
+//    override fun setActionBar(){
+//        // Access the activity's action bar
+////        val actionBar = (activity as AppCompatActivity).supportActionBar
+////        // Enable the action bar and set the title
+////        actionBar?.apply {
+////            setDisplayHomeAsUpEnabled(true) // Enable the back button, if needed
+////            title = "Your Fragment Title"
+////        }
+//    }
     private fun hideProgressBar(){
         binding.progressBar.hide()
     }
@@ -49,9 +64,12 @@ class BookListFragment : BaseFragment<BookListViewModel,FragmentBookListBinding>
         b.putInt(LIST_INDEX,index)
         findNavController().navigate(R.id.bookDetailFragment,b)
     }
+    private fun navigateToFavourite(){
+        findNavController().navigate(R.id.favBookFragment)
+    }
 
     override fun observeViewModel() {
-        lifecycleScope.launch {
+        performCoroutineTask {
             viewModel.getviewStateFlow().collect{ viewState->
                 when(viewState){
                     is ViewState.Loading ->
@@ -69,4 +87,21 @@ class BookListFragment : BaseFragment<BookListViewModel,FragmentBookListBinding>
             }
         }
     }
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater.inflate(R.menu.list_menu_fragment, menu)
+        super.onCreateOptionsMenu(menu, inflater)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.action_favorite -> {
+                // Handle the save button click
+                navigateToFavourite()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+    }
+
+
 }

@@ -4,6 +4,8 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import com.example.bookapi.R
 import com.example.bookapi.common.LIST_INDEX
+import com.example.bookapi.common.hide
+import com.example.bookapi.common.show
 import com.example.bookapi.databinding.FragmentBookDetailBinding
 import com.example.bookapi.domain.model.Book
 import com.example.bookapi.presentation.core.base.BaseFragment
@@ -25,16 +27,23 @@ class BookDetailFragment : BaseFragment<BookListViewModel, FragmentBookDetailBin
             viewModel.fetchList()
         }
     }
-
+    private fun hideProgressBar(){
+        binding.progressBar.hide()
+    }
+    private fun showProgressBar(){
+        binding.progressBar.show()
+    }
     override fun observeViewModel() {
-        lifecycleScope.launch {
+        performCoroutineTask {
             viewModel.getviewStateFlow().collect { viewState ->
                 when (viewState) {
                     is ViewState.Success -> {
+                        hideProgressBar()
                         println("handleFav ViewState.Success")
                         handleResponseSuccess(viewState.result.get(currentIndex))
                     }
                     is ViewState.Failure -> {
+                        hideProgressBar()
                         println("handleFav Failure")
                     }
                     else -> {}

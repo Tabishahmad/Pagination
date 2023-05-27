@@ -10,8 +10,11 @@ import com.example.bookapi.domain.usecase.UseCase
 import com.example.bookapi.presentation.core.ViewState
 import com.example.bookapi.presentation.core.base.BaseViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.suspendCancellableCoroutine
 import javax.inject.Inject
 
 @HiltViewModel
@@ -39,31 +42,26 @@ class BookListViewModel @Inject constructor(private val useCase: UseCase, privat
         performCoroutineTask {
             val button: ImageButton = view as ImageButton
             val isCurrentlyFav = book.isFav
-           if (isCurrentlyFav) {
-                useCase.markFavUseCase.removeBookFromFavorites(book)
+            book.isFav = !isCurrentlyFav
+            if (isCurrentlyFav) {
+                useCase.manageBookUseCase.removeBookFromFavorites(book)
                 button.setImageResource(R.drawable.ic_favorite_border)
             } else {
-                useCase.markFavUseCase.setBookFavorite(book)
+                useCase.manageBookUseCase.setBookFavorite(book)
                 button.setImageResource(R.drawable.ic_favorite)
             }
-            book.isFav = !isCurrentlyFav
         }
     }
 
-//    private suspend fun getAllFavouriteBooks(): List<Book> {
-//        return suspendCancellableCoroutine { sc ->
-//            dispatchOnIO {
-//                bookListUseCase.getAllFavBooksUseCase().collect {
-//                    if (sc.isActive) sc.resume(it)
-//                }
-//            }
-//        }
-//    }
+    fun getAllFavouriteBooks(): Flow<List<Book>> {
+        return flow {
+            emit(useCase.manageBookUseCase.getBooksList())
+        }
+    }
 
     fun isFavoriteBook(book: Book, callback: (Boolean) -> Unit) {
         performCoroutineTask {
-            var result = useCase.markFavUseCase.isFavoriteBook(book)
-            println("handleFav VM " + result)
+            var result = useCase.manageBookUseCase.isFavoriteBook(book)
             callback(result)
         }
     }

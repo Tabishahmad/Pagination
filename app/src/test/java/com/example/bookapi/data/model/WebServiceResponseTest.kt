@@ -22,7 +22,7 @@ class WebServiceResponseTest {
 
     @Test
     fun testOnFailure() {
-        val error = NetworkResult.Failure(Throwable())
+        val error = NetworkResult.Failure("")
         assertThat(error, CoreMatchers.instanceOf(NetworkResult.Failure::class.java))
     }
 }

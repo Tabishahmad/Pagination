@@ -2,6 +2,7 @@ package com.example.bookapi.domain.usecase
 
 import com.example.bookapi.domain.model.Book
 import com.example.bookapi.domain.repository.DBRepository
+import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
 class ManageBookFavoriteUseCase @Inject constructor(val dbRepository: DBRepository) {
@@ -13,5 +14,8 @@ class ManageBookFavoriteUseCase @Inject constructor(val dbRepository: DBReposito
     }
     suspend fun isFavoriteBook(book: Book): Boolean {
         return dbRepository.getBook(book.bookHashId) != null
+    }
+    suspend fun getBooksList(): List<Book> {
+        return dbRepository.getBooksList()
     }
 }

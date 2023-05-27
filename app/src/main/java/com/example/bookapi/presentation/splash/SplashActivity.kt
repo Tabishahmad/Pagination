@@ -25,7 +25,7 @@ class SplashActivity : BaseActivity<ActivitySplashBinding>(R.layout.activity_spl
         finish()
     }
 
-    override fun preSetViewInit() {
+    override fun preSetContentViewInit() {
         splashScreen = installSplashScreen()
     }
     override fun init() {

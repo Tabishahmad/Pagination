@@ -8,7 +8,10 @@ import androidx.annotation.LayoutRes
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.viewModelScope
 import com.example.bookapi.BR
+import kotlinx.coroutines.launch
 
 abstract class BaseFragment<vModel : BaseViewModel, viewDataBinding : ViewDataBinding>(
     @LayoutRes private val layoutId: Int
@@ -32,9 +35,15 @@ abstract class BaseFragment<vModel : BaseViewModel, viewDataBinding : ViewDataBi
             inflater, layoutId, container, false);
         binding.setVariable(BR.viewModel,viewModel)
             observeViewModel()
+//        setActionBar()
         return binding.root
     }
     open fun init(){}
+//    open fun setActionBar(){}
     protected abstract fun observeViewModel()
-
+    protected fun performCoroutineTask(block: suspend  () -> Unit) {
+        viewLifecycleOwner.lifecycleScope.launch() {
+            block()
+        }
+    }
 }

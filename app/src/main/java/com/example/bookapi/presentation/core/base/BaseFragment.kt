@@ -34,12 +34,10 @@ abstract class BaseFragment<vModel : BaseViewModel, viewDataBinding : ViewDataBi
         binding = DataBindingUtil.inflate(
             inflater, layoutId, container, false);
         binding.setVariable(BR.viewModel,viewModel)
-            observeViewModel()
-//        setActionBar()
+        observeViewModel()
         return binding.root
     }
     open fun init(){}
-//    open fun setActionBar(){}
     protected abstract fun observeViewModel()
     protected fun performCoroutineTask(block: suspend  () -> Unit) {
         viewLifecycleOwner.lifecycleScope.launch() {

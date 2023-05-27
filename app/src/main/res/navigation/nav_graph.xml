@@ -17,9 +17,9 @@
     <fragment
         android:id="@+id/bookDetailFragment"
         android:name="com.example.bookapi.presentation.detail.BookDetailFragment"
-        android:label="@string/book_detail_fragment_label"></fragment>
+        android:label="@string/book_detail_fragment_label" />
     <fragment
         android:id="@+id/favBookFragment"
         android:name="com.example.bookapi.presentation.favourite.FavouriteBooksFragment"
-        android:label="@string/favourite_fragment_label"></fragment>
+        android:label="@string/favourite_fragment_label" />
 </navigation>

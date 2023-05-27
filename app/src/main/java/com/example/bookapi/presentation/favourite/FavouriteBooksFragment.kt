@@ -2,6 +2,7 @@ package com.example.bookapi.presentation.favourite
 
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
@@ -11,6 +12,7 @@ import com.example.bookapi.R
 import com.example.bookapi.common.LIST_INDEX
 import com.example.bookapi.common.hide
 import com.example.bookapi.common.show
+import com.example.bookapi.common.showCustomToast
 import com.example.bookapi.databinding.FragmentBookFavouriteBinding
 import com.example.bookapi.domain.model.Book
 import com.example.bookapi.presentation.core.base.BaseFragment
@@ -47,13 +49,9 @@ class FavouriteBooksFragment : BaseFragment<BookListViewModel,FragmentBookFavour
     }
 
     override fun onItemClick(view: View, any: Any, index: Int) {
-        navigateToDetail(index)
+        requireContext().getString(R.string.not_implemented).showCustomToast(requireContext(),Toast.LENGTH_LONG)
     }
-    private fun navigateToDetail(index: Int){
-        val b = Bundle()
-        b.putInt(LIST_INDEX,index)
-        findNavController().navigate(R.id.bookDetailFragment,b)
-    }
+
 
     override fun observeViewModel() {
         lifecycleScope.launch {

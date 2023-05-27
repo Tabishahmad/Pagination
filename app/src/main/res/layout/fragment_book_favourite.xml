@@ -33,7 +33,8 @@
             android:text="@string/response_error"
             android:visibility="gone"
             android:textColor="@color/white"
-            android:textSize="50dp"></TextView>
+            android:textSize="50sp" />
+
         <TextView
             android:id="@+id/nodata"
             android:layout_width="wrap_content"
@@ -42,6 +43,6 @@
             android:textStyle="bold"
             android:visibility="gone"
             android:layout_centerInParent="true"
-            android:layout_height="wrap_content"></TextView>
+            android:layout_height="wrap_content" />
     </RelativeLayout>
 </layout>

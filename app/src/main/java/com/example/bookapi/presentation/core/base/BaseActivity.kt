@@ -6,7 +6,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 
-
+/**
+ * This abstract class serves as a base for activities in an Android application,
+ * utilizing ViewDataBinding for data binding functionality.
+ * It takes a layout resource ID as a parameter
+ * and extends the AppCompatActivity class.
+ */
 abstract class BaseActivity<Binding : ViewDataBinding>(
     @LayoutRes private val layoutId: Int
     ) : AppCompatActivity() {

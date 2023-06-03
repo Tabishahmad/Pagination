@@ -1,4 +1,4 @@
-package com.example.bookapi.data.repository
+package com.example.bookapi.data.repository.remote
 
 import android.content.Context
 import com.example.bookapi.R

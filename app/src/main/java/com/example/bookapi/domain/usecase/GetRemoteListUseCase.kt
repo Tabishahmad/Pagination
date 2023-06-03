@@ -6,7 +6,7 @@ import com.example.bookapi.domain.repository.BookListRepository
 import kotlinx.coroutines.flow.*
 import javax.inject.Inject
 
-class GetListUseCase @Inject constructor (
+class GetRemoteListUseCase @Inject constructor (
     private val repository: BookListRepository
 ) {
      operator fun invoke(): Flow<NetworkResult<Book>> = flow {

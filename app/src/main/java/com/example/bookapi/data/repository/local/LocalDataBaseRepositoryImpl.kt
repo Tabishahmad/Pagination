@@ -2,11 +2,10 @@ package com.example.bookapi.data.repository
 
 import com.example.bookapi.data.database.FavouriteBookDUO
 import com.example.bookapi.domain.model.Book
-import com.example.bookapi.domain.repository.DBRepository
-import kotlinx.coroutines.flow.Flow
+import com.example.bookapi.domain.repository.LocalDataBaseRepository
 import javax.inject.Inject
 
-class DBRepositoryImpl @Inject constructor(private val favouriteBookDUO:FavouriteBookDUO):DBRepository {
+class DBRepositoryImpl @Inject constructor(private val favouriteBookDUO:FavouriteBookDUO):LocalDataBaseRepository {
     override suspend fun setBookFavorite(book: Book) {
         favouriteBookDUO.markFavouriteBook(book)
     }

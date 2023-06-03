@@ -5,9 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.example.bookapi.common.hide
 import com.example.bookapi.common.loadImageWithGlide
-import com.example.bookapi.common.show
 import com.example.bookapi.databinding.ImageRowBinding
 import com.example.bookapi.domain.model.Book
 
@@ -52,7 +50,7 @@ class ImageListAdapter : RecyclerView.Adapter<ImageListAdapter.ImageHolder>() {
         fun onItemClick(view: View, any: Any, index: Int)
     }
     fun updateList(newList: List<Book>) {
-        val diffCallback = MyDiffUtilCallback(items, newList)
+        val diffCallback = RecycleViewDiffUtil(items, newList)
         val diffResult = DiffUtil.calculateDiff(diffCallback)
         items = newList
         diffResult.dispatchUpdatesTo(this)

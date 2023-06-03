@@ -1,12 +1,12 @@
 package com.example.bookapi.hilt
 
 import android.content.Context
-import com.example.bookapi.data.repository.BookListRepositoryImpl
+import com.example.bookapi.data.repository.remote.BookListRepositoryImpl
 import com.example.bookapi.data.repository.remote.BookDataSource
 import com.example.bookapi.domain.repository.BookListRepository
-import com.example.bookapi.domain.repository.DBRepository
+import com.example.bookapi.domain.repository.LocalDataBaseRepository
 import com.example.bookapi.domain.usecase.UseCase
-import com.example.bookapi.domain.usecase.GetListUseCase
+import com.example.bookapi.domain.usecase.GetRemoteListUseCase
 import com.example.bookapi.domain.usecase.ManageBookFavoriteUseCase
 import dagger.Module
 import dagger.Provides
@@ -23,8 +23,8 @@ class ViewModelModule {
     }
     @Provides
     fun provideBookUseCase(bookListRepository: BookListRepository,
-                            dbRepository: DBRepository):UseCase{
-        return UseCase(GetListUseCase(bookListRepository),
+                            dbRepository: LocalDataBaseRepository):UseCase{
+        return UseCase(GetRemoteListUseCase(bookListRepository),
             ManageBookFavoriteUseCase(dbRepository))
     }
 }

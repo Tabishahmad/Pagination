@@ -2,11 +2,11 @@ package com.example.bookapi.hilt
 
 import android.content.Context
 import androidx.room.Room
-import com.example.bookapi.common.TABLE_NAME
+import com.example.bookapi.common.DATABASE_TABLE_NAME
 import com.example.bookapi.data.database.FavouriteBookDUO
 import com.example.bookapi.data.database.FavouriteBookDatabase
 import com.example.bookapi.data.repository.DBRepositoryImpl
-import com.example.bookapi.domain.repository.DBRepository
+import com.example.bookapi.domain.repository.LocalDataBaseRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -21,7 +21,7 @@ class DatabaseModule {
         return favouriteBookDatabase.favouriteBookDUO()
     }
     @Provides
-    fun provideDatabaseRepo(favouriteBookDUO: FavouriteBookDUO):DBRepository{
+    fun provideDatabaseRepo(favouriteBookDUO: FavouriteBookDUO):LocalDataBaseRepository{
         return DBRepositoryImpl(favouriteBookDUO)
     }
     @Provides
@@ -29,7 +29,7 @@ class DatabaseModule {
         return Room.databaseBuilder(
             appContext,
             FavouriteBookDatabase::class.java,
-            TABLE_NAME
+            DATABASE_TABLE_NAME
         ).build()
     }
 }

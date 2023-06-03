@@ -3,7 +3,7 @@ package com.example.bookapi.presentation.list
 import androidx.recyclerview.widget.DiffUtil
 import com.example.bookapi.domain.model.Book
 
-class MyDiffUtilCallback(
+class RecycleViewDiffUtil(
     private val oldList: List<Book>,
     private val newList: List<Book>
 ) : DiffUtil.Callback() {

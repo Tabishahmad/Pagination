@@ -18,10 +18,6 @@ class SplashActivity : BaseActivity<ActivitySplashBinding>(R.layout.activity_spl
     private fun navigateToGridScreen() {
         val intent = Intent(this@SplashActivity, FragmentContainerActivity::class.java)
         startActivity(intent)
-        overridePendingTransition(
-            R.anim.modal_activity_open_enter,
-            R.anim.modal_activity_close_exit
-        )
         finish()
     }
 

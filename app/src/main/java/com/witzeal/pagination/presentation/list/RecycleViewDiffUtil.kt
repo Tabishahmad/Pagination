@@ -17,10 +17,8 @@ class RecycleViewDiffUtil(
     }
 
     override fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {
-        // Compare unique identifiers of the items
-        return false
-//        return oldList[oldItemPosition].user_name == newList[newItemPosition].user_name &&
-//                oldList[oldItemPosition].rank == newList[newItemPosition].rank
+        return oldList[oldItemPosition].user_name == newList[newItemPosition].user_name &&
+                oldList[oldItemPosition].rank == newList[newItemPosition].rank
     }
 
     override fun areContentsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {

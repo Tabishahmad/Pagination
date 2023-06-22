@@ -3,7 +3,6 @@ package com.witzeal.pagination.hilt
 import android.content.Context
 import com.witzeal.pagination.data.repository.remote.BookListRepositoryImpl
 import com.witzeal.pagination.domain.repository.BookListRepository
-import com.witzeal.pagination.domain.repository.LocalDataBaseRepository
 import com.witzeal.pagination.domain.usecase.GetRemoteListUseCase
 import com.witzeal.pagination.domain.usecase.UseCase
 import dagger.Module

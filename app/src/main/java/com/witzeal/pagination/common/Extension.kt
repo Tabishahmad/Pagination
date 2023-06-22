@@ -7,7 +7,6 @@ import android.widget.Toast
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
-import com.bumptech.glide.Glide
 import com.witzeal.pagination.R
 
 

@@ -7,12 +7,12 @@ plugins {
 }
 
 android {
-    namespace 'com.example.bookapi'
+    namespace 'com.witzeal.pagination'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.bookapi"
-        minSdk 21
+        applicationId "com.witzeal.pagination"
+        minSdk 23
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -55,6 +55,8 @@ dependencies {
     }
     kapt "com.google.dagger:hilt-compiler:2.44"
 
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 
     // Navigation component
     implementation "androidx.navigation:navigation-fragment-ktx:2.5.3"
@@ -82,9 +84,9 @@ dependencies {
     kapt 'com.github.bumptech.glide:compiler:4.13.2'
 
     //Room
-    implementation "androidx.room:room-runtime:2.5.0"
-    kapt "androidx.room:room-compiler:2.5.0"
-    implementation "androidx.room:room-ktx:2.5.0"
+//    implementation "androidx.room:room-runtime:2.5.0"
+//    kapt "androidx.room:room-compiler:2.5.0"
+//    implementation "androidx.room:room-ktx:2.5.0"
 
     implementation "androidx.core:core-splashscreen:1.0.0-beta02"
 

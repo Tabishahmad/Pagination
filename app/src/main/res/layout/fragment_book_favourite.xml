@@ -8,9 +8,9 @@
         android:id="@+id/fragment_movie_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/background_grey">
+        android:background="@color/background">
 
-        <com.example.bookapi.presentation.list.ImageRecyclerview
+        <com.witzeal.pagination.presentation.list.ImageRecyclerview
             android:id="@+id/rv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

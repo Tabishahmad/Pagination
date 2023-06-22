@@ -6,11 +6,11 @@
 
         <variable
             name="book"
-            type="com.example.bookapi.domain.model.Book" />
+            type="com.witzeal.pagination.domain.model.User" />
 
         <variable
             name="viewModel"
-            type="com.example.bookapi.presentation.list.BookListViewModel" />
+            type="com.witzeal.pagination.presentation.list.BookListViewModel" />
     </data>
 
     <RelativeLayout
@@ -60,7 +60,6 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:onClick="@{(view) ->viewModel.handleFavoriteBook(view,book)}"
                     android:background="?android:attr/selectableItemBackground"
                     android:padding="5dp"
                     android:src="@drawable/ic_favorite_border" />

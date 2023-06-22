@@ -1,15 +1,15 @@
 package com.witzeal.pagination.presentation.detail
 
 import androidx.fragment.app.viewModels
-import com.example.bookapi.R
-import com.example.bookapi.common.LIST_INDEX
-import com.example.bookapi.common.hide
-import com.example.bookapi.common.show
-import com.example.bookapi.databinding.FragmentBookDetailBinding
-import com.example.bookapi.domain.model.Book
-import com.example.bookapi.presentation.core.base.BaseFragment
-import com.example.bookapi.presentation.core.ViewState
-import com.example.bookapi.presentation.list.BookListViewModel
+import com.witzeal.pagination.R
+import com.witzeal.pagination.common.LIST_INDEX
+import com.witzeal.pagination.common.hide
+import com.witzeal.pagination.common.show
+import com.witzeal.pagination.databinding.FragmentBookDetailBinding
+import com.witzeal.pagination.domain.model.User
+import com.witzeal.pagination.presentation.core.ViewState
+import com.witzeal.pagination.presentation.core.base.BaseFragment
+import com.witzeal.pagination.presentation.list.BookListViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -50,22 +50,22 @@ class BookDetailFragment : BaseFragment<BookListViewModel, FragmentBookDetailBin
         }
     }
 
-    private fun handleResponseSuccess(book: Book) {
+    private fun handleResponseSuccess(book: User) {
         binding.book = book
         setFavoriteBookResource(book)
-        setText(book.thumbnailUrl)
+//        setText(book.thumbnailUrl)
     }
 
     private fun setText(string: String) {
         binding.textView.setText(string)
     }
 
-    private fun setFavoriteBookResource(book: Book) {
-        viewModel.isFavoriteBook(book) { boolean ->
-            println("handleFav " + boolean)
-            val imageRes = if (boolean) R.drawable.ic_favorite else R.drawable.ic_favorite_border
-            binding.favoriteButton.setImageResource(imageRes)
-        }
+    private fun setFavoriteBookResource(book: User) {
+//        viewModel.isFavoriteBook(book) { boolean ->
+//            println("handleFav " + boolean)
+//            val imageRes = if (boolean) R.drawable.ic_favorite else R.drawable.ic_favorite_border
+//            binding.favoriteButton.setImageResource(imageRes)
+//        }
     }
 
 }

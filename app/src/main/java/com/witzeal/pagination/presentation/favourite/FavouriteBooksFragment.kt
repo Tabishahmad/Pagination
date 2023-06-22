@@ -5,15 +5,15 @@ import android.widget.Toast
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.bookapi.R
-import com.example.bookapi.common.hide
-import com.example.bookapi.common.show
-import com.example.bookapi.common.showCustomToast
-import com.example.bookapi.databinding.FragmentBookFavouriteBinding
-import com.example.bookapi.domain.model.Book
-import com.example.bookapi.presentation.core.base.BaseFragment
-import com.example.bookapi.presentation.list.BookListViewModel
-import com.example.bookapi.presentation.list.ImageListAdapter
+import com.witzeal.pagination.R
+import com.witzeal.pagination.common.hide
+import com.witzeal.pagination.common.show
+import com.witzeal.pagination.common.showCustomToast
+import com.witzeal.pagination.databinding.FragmentBookFavouriteBinding
+import com.witzeal.pagination.domain.model.User
+import com.witzeal.pagination.presentation.core.base.BaseFragment
+import com.witzeal.pagination.presentation.list.BookListViewModel
+import com.witzeal.pagination.presentation.list.ImageListAdapter
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
@@ -32,7 +32,7 @@ class FavouriteBooksFragment : BaseFragment<BookListViewModel,FragmentBookFavour
         binding.progressBar.hide()
     }
 
-    private fun setupRecyclersView(list:List<Book>){
+    private fun setupRecyclersView(list:List<User>){
         hideProgressBar()
         if(list.isEmpty()){
             binding.rv.hide()
@@ -50,10 +50,10 @@ class FavouriteBooksFragment : BaseFragment<BookListViewModel,FragmentBookFavour
 
 
     override fun observeViewModel() {
-        lifecycleScope.launch {
-            viewModel.getAllFavouriteBooks().collect{
-                setupRecyclersView(it)
-            }
-        }
+//        lifecycleScope.launch {
+//            viewModel.getAllFavouriteBooks().collect{
+//                setupRecyclersView(it)
+//            }
+//        }
     }
 }

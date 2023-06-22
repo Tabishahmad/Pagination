@@ -1,11 +1,11 @@
 package com.witzeal.pagination.presentation.list
 
 import androidx.recyclerview.widget.DiffUtil
-import com.example.bookapi.domain.model.Book
+import com.witzeal.pagination.domain.model.User
 
 class RecycleViewDiffUtil(
-    private val oldList: List<Book>,
-    private val newList: List<Book>
+    private val oldList: List<User>,
+    private val newList: List<User>
 ) : DiffUtil.Callback() {
 
     override fun getOldListSize(): Int {
@@ -18,9 +18,9 @@ class RecycleViewDiffUtil(
 
     override fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {
         // Compare unique identifiers of the items
-        return oldList[oldItemPosition].bookHashId == newList[newItemPosition].bookHashId &&
-                oldList[oldItemPosition].bookTitle == newList[newItemPosition].bookTitle &&
-                oldList[oldItemPosition].thumbnailUrl == newList[newItemPosition].thumbnailUrl
+        return false
+//        return oldList[oldItemPosition].user_name == newList[newItemPosition].user_name &&
+//                oldList[oldItemPosition].rank == newList[newItemPosition].rank
     }
 
     override fun areContentsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {

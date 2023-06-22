@@ -1,15 +1,15 @@
 package com.witzeal.pagination.domain.usecase
 
-import com.example.bookapi.domain.model.Book
-import com.example.bookapi.domain.model.NetworkResult
-import com.example.bookapi.domain.repository.BookListRepository
+import com.witzeal.pagination.domain.model.User
+import com.witzeal.pagination.domain.model.NetworkResult
+import com.witzeal.pagination.domain.repository.BookListRepository
 import kotlinx.coroutines.flow.*
 import javax.inject.Inject
 
 class GetRemoteListUseCase @Inject constructor (
     private val repository: BookListRepository
 ) {
-     operator fun invoke(): Flow<NetworkResult<Book>> = flow {
-        emit(repository.getBookList())
+     operator fun invoke(offset:Int): Flow<NetworkResult<User>> = flow {
+        emit(repository.getBookList(offset))
     }
 }

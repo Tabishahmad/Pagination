@@ -4,12 +4,12 @@ import android.content.Intent
 import androidx.activity.viewModels
 import androidx.core.splashscreen.SplashScreen
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import com.example.bookapi.BR
-import com.example.bookapi.R
-import com.example.bookapi.common.observeOnce
-import com.example.bookapi.databinding.ActivitySplashBinding
-import com.example.bookapi.presentation.FragmentContainerActivity
-import com.example.bookapi.presentation.core.base.BaseActivity
+import com.witzeal.pagination.BR
+import com.witzeal.pagination.R
+import com.witzeal.pagination.common.observeOnce
+import com.witzeal.pagination.databinding.ActivitySplashBinding
+import com.witzeal.pagination.presentation.FragmentContainerActivity
+import com.witzeal.pagination.presentation.core.base.BaseActivity
 
 class SplashActivity : BaseActivity<ActivitySplashBinding>(R.layout.activity_splash) {
     private lateinit var splashScreen: SplashScreen

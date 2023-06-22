@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="-20dp"
+        android:src="@drawable/crown_final"></ImageView>
+    <ImageView
+        android:layout_width="@dimen/_50sdp"
+        android:adjustViewBounds="true"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/circle_icon"></ImageView>
+
+    <TextView
+        android:id="@+id/secod_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:text="Rohit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"/>
+
+    <TextView
+        android:id="@+id/secod_user_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="1,00,789 pts"
+        android:textColor="#7a91a3"
+        android:textSize="@dimen/_8sdp"/>
+
+    <TextView
+        android:id="@+id/secod_user_p_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="₹15,500"
+        android:textColor="#e7b109"
+        android:textSize="@dimen/_15sdp" />
+</LinearLayout>

@@ -9,7 +9,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
-import com.example.bookapi.BR
+import com.witzeal.pagination.BR
 import kotlinx.coroutines.launch
 
 abstract class BaseFragment<vModel : BaseViewModel, viewDataBinding : ViewDataBinding>(
@@ -34,9 +34,11 @@ abstract class BaseFragment<vModel : BaseViewModel, viewDataBinding : ViewDataBi
             inflater, layoutId, container, false);
         binding.setVariable(BR.viewModel,viewModel)
         observeViewModel()
+        updateLayout()
         return binding.root
     }
     open fun init(){}
+    open fun updateLayout(){}
     protected abstract fun observeViewModel()
     protected fun performCoroutineTask(block: suspend  () -> Unit) {
         viewLifecycleOwner.lifecycleScope.launch() {

@@ -1,26 +1,39 @@
 package com.witzeal.pagination.data.repository.remote
 
 import android.content.Context
-import com.example.bookapi.R
-import com.example.bookapi.domain.repository.BookListRepository
-import com.example.bookapi.domain.model.Book
-import com.example.bookapi.domain.model.NetworkResult
+import com.witzeal.pagination.R
+import com.witzeal.pagination.domain.model.User
+import com.witzeal.pagination.domain.model.NetworkResult
+import com.witzeal.pagination.domain.repository.BookListRepository
 import javax.inject.Inject
 
 class BookListRepositoryImpl @Inject
-        constructor(private val apiCall: BookDataSource,private val context: Context): BookListRepository {
+        constructor(private val context: Context): BookListRepository {
 
-    override suspend fun getBookList(): NetworkResult<Book> {
+    override suspend fun getBookList(offset : Int): NetworkResult<User> {
         println("getBookList(): NetworkResult<Book>")
-        return try {
-            val response = apiCall.downloadBookList()
-            if (response.isSuccessful) {
-                NetworkResult.Success(response.body()?.toBook() ?: emptyList())
-            } else {
-                NetworkResult.Failure(context.getString(R.string.faild_to_retrive))
-            }
-        } catch (e: Exception) {
-            NetworkResult.Failure(context.getString(R.string.faild_to_retrive))
-        }
+        return NetworkResult.Success(createMockUserList(offset) ?: emptyList())
     }
+    fun createMockUserList(offset : Int): List<User> {
+        val userList = mutableListOf<User>()
+        if(offset >= 1000){
+            return emptyList()
+        }
+        val start = offset
+        val end = offset + 50
+        for (i in start..end) {
+            val user = User(
+                rank = i,
+                profile_pic_URL = "https://st4.depositphotos.com/20523356/22445/v/450/depositphotos_224458104-stock-illustration-flat-user-icon-website-face.jpg",
+                user_name = "User$i",
+                user_point = i + 98000,
+                price_money = i * 200
+            )
+            userList.add(user)
+        }
+
+        return userList
+    }
+
+
 }

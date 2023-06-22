@@ -8,14 +8,16 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import com.bumptech.glide.Glide
-import com.example.bookapi.R
+import com.witzeal.pagination.R
 
 
 fun ImageView.loadImageWithGlide(context: Context, imageURL: String) {
-    Glide.with(context)
-        .load(imageURL)
-        .thumbnail(Glide.with(context).load(R.raw.load))
-        .into(this)
+    //I don't have a proper URL, so for now I am using images from Drawable only.
+    this.setImageResource(R.drawable.circle_icon)
+//    Glide.with(context)
+//        .load(imageURL)
+//        .thumbnail(Glide.with(context).load(R.raw.load))
+//        .into(this)
 }
 
 fun String.showCustomToast(context: Context, duration: Int = Toast.LENGTH_LONG) {

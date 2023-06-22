@@ -1,11 +1,11 @@
 package com.witzeal.pagination.domain.repository
 
-import com.example.bookapi.domain.model.Book
+import com.witzeal.pagination.domain.model.User
 
 
 interface LocalDataBaseRepository {
-    suspend fun setBookFavorite(book: Book)
-    suspend fun removeBookFromFavorites(book: Book)
-    suspend fun getBooksList(): List<Book>
-    suspend fun getBook(bookId: String):Book?
+    suspend fun setBookFavorite(book: User)
+    suspend fun removeBookFromFavorites(book: User)
+    suspend fun getBooksList(): List<User>
+    suspend fun getBook(bookId: String):User?
 }

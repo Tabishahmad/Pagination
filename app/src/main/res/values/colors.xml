@@ -8,5 +8,15 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="light_grey">#D3D3D3</color>
-    <color name="background_grey">#808080</color>
+    <color name="background">#0b3455</color>
+
+    <color name="first_pos_color_code">#ffff65</color>
+    <color name="second_pos_color_code">#dee4ed</color>
+    <color name="third_pos_color_code">#ffd29b</color>
+
+    <color name="toolbar_text_color">#ad2626</color>
+    <color name="toolbar_color">#e13131</color>
+
+    <color name="line_seprator">#264a68</color>
+    <color name="sticky_user">#0388cd</color>
 </resources>

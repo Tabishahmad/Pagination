@@ -17,7 +17,7 @@
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
         <!-- The splash screen background, animated icon, and animation duration -->
         <item name="windowSplashScreenBackground">@color/purple_200</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/animated_face</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/witzeal</item>
         <item name="windowSplashScreenAnimationDuration">2000</item>
         <item name="postSplashScreenTheme">@style/App.Theme</item>
     </style>

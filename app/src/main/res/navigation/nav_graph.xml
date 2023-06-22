@@ -8,18 +8,6 @@
         android:id="@+id/listFragment"
         android:name="com.witzeal.pagination.presentation.list.BookListFragment"
         android:label="@string/listFragment_label">
-        <action
-            android:id="@+id/action_list_to_detail"
-            app:destination="@id/bookDetailFragment"
-            app:popUpTo="@id/listFragment"
-            app:popUpToInclusive="true" />
     </fragment>
-    <fragment
-        android:id="@+id/bookDetailFragment"
-        android:name="com.witzeal.pagination.presentation.detail.BookDetailFragment"
-        android:label="@string/book_detail_fragment_label" />
-    <fragment
-        android:id="@+id/favBookFragment"
-        android:name="com.witzeal.pagination.presentation.favourite.FavouriteBooksFragment"
-        android:label="@string/favourite_fragment_label" />
+
 </navigation>

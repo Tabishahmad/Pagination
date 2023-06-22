@@ -16,9 +16,6 @@ class BookListRepositoryImpl @Inject
     }
     fun createMockUserList(offset : Int): List<User> {
         val userList = mutableListOf<User>()
-        if(offset >= 1000){
-            return emptyList()
-        }
         val start = offset
         val end = offset + 50
         for (i in start..end) {

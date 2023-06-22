@@ -1,22 +1,8 @@
 package com.witzeal.pagination.presentation.list
 
-import android.os.Bundle
-import android.text.SpannableString
 import android.text.SpannableStringBuilder
-import android.text.Spanned
-import android.text.style.AbsoluteSizeSpan
-import android.text.style.RelativeSizeSpan
-import android.text.style.SuperscriptSpan
-import android.text.style.TextAppearanceSpan
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.MenuItem
 import android.view.View
-import android.widget.TextView
-import android.widget.Toast
-import androidx.core.widget.NestedScrollView
 import androidx.fragment.app.activityViewModels
-import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.witzeal.pagination.R
@@ -154,24 +140,16 @@ class BookListFragment : BaseFragment<BookListViewModel,FragmentBookListBinding>
         binding.userBottom.layout.visibility = View.GONE
     }
     private fun fetchPreviousUsersData(){
-        //Nothing to do
+        //Nothing to do for now
     }
     private fun fetchNextUsersData(offset : Int){
-        isUpdateList = true
-        viewModel.fetchNextUsersData(offset)
+        if(offset < MAX_LIST_SIZE) {
+            isUpdateList = true
+            viewModel.fetchNextUsersData(offset)
+        }
     }
     override fun onItemClick(view: View, any: Any, index: Int) {
-        navigateToDetail(index)
     }
-    private fun navigateToDetail(index: Int){
-        val b = Bundle()
-        b.putInt(LIST_INDEX,index)
-        findNavController().navigate(R.id.bookDetailFragment,b)
-    }
-    private fun navigateToFavourite(){
-        findNavController().navigate(R.id.favBookFragment)
-    }
-
     override fun observeViewModel() {
         performCoroutineTask {
             viewModel.getviewStateFlow().collect{ viewState->
@@ -191,20 +169,7 @@ class BookListFragment : BaseFragment<BookListViewModel,FragmentBookListBinding>
             }
         }
     }
-    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater.inflate(R.menu.list_menu_fragment, menu)
-        super.onCreateOptionsMenu(menu, inflater)
-    }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            R.id.action_favorite -> {
-                navigateToFavourite()
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
-        }
-    }
 
 
 }
